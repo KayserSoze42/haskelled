@@ -1,4 +1,4 @@
-module Mo1 (hailstoneSeq, is6or9, getOpinion, intListLength) where
+module Mo1 (hailstoneSeq, is6or9, getOpinion, intListLength, intToSum) where
 
 hailstone :: Integer -> Integer
 hailstone n 
@@ -23,6 +23,11 @@ getOpinion x
   |  x == 42069         = "Pretty.. pretty.. pretty nicee"
   |  otherwise          = "Meh.."
 
-intListLength :: [Integer] -> Int
+intListLength :: [Integer] -> Integer
 intListLength []     = 0
 intListLength (x:xs) = 1 + intListLength xs
+
+intToSum :: [Integer] -> [Integer]
+intToSum []       = []
+intToSum (x:[])   = [x]
+intToSum (x:y:zs) = (x + y) : intToSum zs

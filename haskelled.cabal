@@ -22,7 +22,9 @@ extra-source-files:
     README.md
 
 library
-    exposed-modules:  Mo1
+    exposed-modules:  
+      Mo1
+      Mo2
 
     -- Modules included in this library but not exported.
     -- other-modules:
