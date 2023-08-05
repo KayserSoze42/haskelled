@@ -1,4 +1,4 @@
-module Mo1 (hailstone, hailstoneSeq, is6or9, getOpinion) where
+module Mo1 (hailstoneSeq, is6or9, getOpinion, intListLength) where
 
 hailstone :: Integer -> Integer
 hailstone n 
@@ -23,4 +23,6 @@ getOpinion x
   |  x == 42069         = "Pretty.. pretty.. pretty nicee"
   |  otherwise          = "Meh.."
 
-
+intListLength :: [Integer] -> Int
+intListLength []     = 0
+intListLength (x:xs) = 1 + intListLength xs
