@@ -1,19 +1,17 @@
 module Main where
 
-import qualified MyLib (addd, funkyFunc)
-
-numberz :: [Int]
-numberz = []
+import qualified Mo1 (hailstone, hailstoneSeq, is6or9, getOpinion)
 
 main :: IO ()
 main = do
 
-  print ("Numberz: " ++ show (numberz))
-
   print ("Enter a number: ")
 
   input <- getLine
-  let numberzz = MyLib.addd (read input :: Int) numberz
+  let number = read input :: Integer
+  
+  print ("Is given number 6 or 9? " ++ show (Mo1.is6or9 number))
 
-  print ("Numberzz: " ++ show (numberzz))
+  print ("Hailstone: " ++ show (Mo1.hailstoneSeq number))
 
+  print ("Opinion: " ++ (Mo1.getOpinion number))
