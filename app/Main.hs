@@ -1,9 +1,10 @@
 module Main where
 
 import qualified Mo1 (hailstoneSeq, is6or9, getOpinion, intListLength, intToSum)
-import qualified Mo2 (printWM, toReversedList, doubleEverySecond, sumItUp, isValid)
+import qualified Mo2 (printWM, toReversedList, doubleEverySecond, sumItUp, isValid, isValidCreditCard)
+import qualified Mo3 (hanoi, moveCount)
 
-list :: [Integer]
+list :: [Int]
 list = [4, 8, 15, 16, 23, 42]
 
 main :: IO ()
@@ -11,7 +12,7 @@ main = do
 
   putStrLn ("Enter a number: ")
 
-  number <- readLn :: IO Integer
+  number <- readLn :: IO Int
 
   putStrLn ("-----------------------------------")
   
@@ -67,7 +68,7 @@ main = do
 
   putStrLn ("Enter a number... again: ")
 
-  number2 <- readLn :: IO Integer
+  number2 <- readLn :: IO Int
 
   putStrLn ("Your number: " ++ show (number2))
 
@@ -85,5 +86,15 @@ main = do
 
   putStrLn ("And.... is it a valid Credit Card number? ")
 
-  putStrLn (show (Mo2.isValid (Mo2.sumItUp (Mo2.doubleEverySecond (Mo2.toReversedList number2)))))
+  putStrLn (show (Mo2.isValidCreditCard (number2)))
+
+  let lastDigit = number2 `mod` 10
+
+  let hanoiMoves = Mo3.hanoi lastDigit "first" "second" "third"
+
+  let hanoiMovesCount = Mo3.moveCount hanoiMoves
+
+  putStrLn ("To complete to so-called hanoi puzzle with 3 pegs and " ++ show (lastDigit) ++ " blocks it would take " ++ show (hanoiMovesCount) ++ " moves... or not..")
+
+  putStrLn (show (hanoiMoves))
 

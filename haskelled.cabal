@@ -25,6 +25,7 @@ library
     exposed-modules:  
       Mo1
       Mo2
+      Mo3
 
     -- Modules included in this library but not exported.
     -- other-modules:
