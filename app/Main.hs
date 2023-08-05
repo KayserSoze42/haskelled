@@ -9,81 +9,81 @@ list = [4, 8, 15, 16, 23, 42]
 main :: IO ()
 main = do
 
-  print ("Enter a number: ")
+  putStrLn ("Enter a number: ")
 
   number <- readLn :: IO Integer
 
-  print ("-----------------------------------")
+  putStrLn ("-----------------------------------")
   
-  print ("Is given number 6 or 9? ")
+  putStrLn ("Is given number 6 or 9? ")
 
-  print (show (Mo1.is6or9 number))
+  putStrLn (show (Mo1.is6or9 number))
 
-  print ("-----------------------------------")
+  putStrLn ("-----------------------------------")
   
-  print ("Hailstone: ")
+  putStrLn ("Hailstone: ")
   
-  print (show (Mo1.hailstoneSeq number))
+  putStrLn (show (Mo1.hailstoneSeq number))
 
-  print ("-----------------------------------")
+  putStrLn ("-----------------------------------")
   
-  print ("Opinion: ")
+  putStrLn ("Opinion: ")
 
-  print ((Mo1.getOpinion number))
+  putStrLn ((Mo1.getOpinion number))
 
-  print ("-----------------------------------")
+  putStrLn ("-----------------------------------")
  
-  print ("List before: ")
+  putStrLn ("List before: ")
 
-  print (show (list))
+  putStrLn (show (list))
 
-  print ("Length: ")
+  putStrLn ("Length: ")
 
-  print (show (Mo1.intListLength list))
+  putStrLn (show (Mo1.intListLength list))
 
-  print ("Two sum it up: ")
+  putStrLn ("Two sum it up: ")
 
-  print (show (Mo1.intToSum list))
+  putStrLn (show (Mo1.intToSum list))
 
-  print ("-----------------------------------")
+  putStrLn ("-----------------------------------")
   
   let afterList = number:list
 
-  print ("List after: ")
+  putStrLn ("List after: ")
 
-  print (show (afterList))
+  putStrLn (show (afterList))
 
-  print ("After length: ")
+  putStrLn ("After length: ")
 
-  print (show (Mo1.intListLength afterList))
+  putStrLn (show (Mo1.intListLength afterList))
 
-  print ("Two sum it up 2: ")
+  putStrLn ("Two sum it up 2: ")
 
-  print (show (Mo1.intToSum afterList))
+  putStrLn (show (Mo1.intToSum afterList))
 
-  print ("-----------------------------------")
+  putStrLn ("-----------------------------------")
   
-  print ("Working Module: " ++ Mo2.printWM)
+  putStrLn ("Working Module: " ++ Mo2.printWM)
 
-  print ("Enter a number... again: ")
+  putStrLn ("Enter a number... again: ")
 
   number2 <- readLn :: IO Integer
 
-  print ("Your number: " ++ show (number2))
+  putStrLn ("Your number: " ++ show (number2))
 
-  print ("Your number... but in a reversed list: ")
+  putStrLn ("Your number... but in a reversed list: ")
 
-  print (show (Mo2.toReversedList number2))
+  putStrLn (show (Mo2.toReversedList number2))
 
-  print ("Your number... but in a reversed list with every second number doubled:")
+  putStrLn ("Your number... but in a reversed list with every second number doubled:")
 
-  print (show (Mo2.doubleEverySecond (Mo2.toReversedList number2)))
+  putStrLn (show (Mo2.doubleEverySecond (Mo2.toReversedList number2)))
 
-  print ("Your number... but in a reversed list with every second number doubled... then summed: ")
+  putStrLn ("Your number... but in a reversed list with every second number doubled... and all digits summed: ")
 
-  print (show (Mo2.sumItUp (Mo2.doubleEverySecond (Mo2.toReversedList number2))))
+  putStrLn (show (Mo2.sumItUp (Mo2.doubleEverySecond (Mo2.toReversedList number2))))
 
-  print ("And.... is it a valid Credit Card number? ")
+  putStrLn ("And.... is it a valid Credit Card number? ")
 
-  print (Mo2.isValid (Mo2.sumItUp (Mo2.doubleEverySecond (Mo2.toReversedList number2))))
+  putStrLn (show (Mo2.isValid (Mo2.sumItUp (Mo2.doubleEverySecond (Mo2.toReversedList number2)))))
 

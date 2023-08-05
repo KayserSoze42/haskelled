@@ -16,13 +16,13 @@ doubleEverySecond (x:[])   = [x]
 doubleEverySecond (x:y:zs) = x : (doubled y) : (doubleEverySecond zs)
 
 sumItUp :: [Integer] -> Integer
-sumItUp []     = 0
+sumItUp []      = 0
 sumItUp (x:[])
-  | x > 10     = sumItUp (toReversedList x)
-  | otherwise  = x
+  | x >= 10     = sumItUp (toReversedList x)
+  | otherwise   = x
 sumItUp (x:ys)
-  | x > 10     = (sumItUp (toReversedList x)) + (sumItUp ys)
-  | otherwise  = x + (sumItUp ys)
+  | x >= 10     = (sumItUp (toReversedList x)) + (sumItUp ys)
+  | otherwise   = x + (sumItUp ys)
 
 isValid :: Integer -> Bool
 isValid n
