@@ -1,4 +1,15 @@
-module Mo2 (printWM, toReversedList, doubleEverySecond, sumItUp, isValid, isValidCreditCard) where
+module Mo2 (printWM, toReversedList, doubleEverySecond, sumItUp, isValid, isValidCreditCard, CreditCard (..), CCID, CCN, extractCCID, extractCCN) where
+
+type CCID = Int
+type CCN  = Int
+
+data CreditCard = CreditCard CCID CCN
+
+extractCCID :: CreditCard -> CCID
+extractCCID (CreditCard id _) = id
+
+extractCCN :: CreditCard -> CCN
+extractCCN (CreditCard _ ccn) = ccn
 
 printWM :: [Char]
 printWM = "Mo2"
