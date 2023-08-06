@@ -2,13 +2,23 @@ module Main where
 
 import qualified Mo1 (hailstoneSeq, is6or9, getOpinion, intListLength, intToSum)
 import qualified Mo2 (printWM, toReversedList, doubleEverySecond, sumItUp, isValid, isValidCreditCard)
-import qualified Mo3 (hanoi, moveCount)
+import qualified Mo3 (hanoi, moveCount, testDrop, truer, falser, ander)
 
 list :: [Int]
 list = [4, 8, 15, 16, 23, 42]
 
 main :: IO ()
 main = do
+
+  putStrLn ("truer True False = " ++ show (Mo3.truer True False))
+
+  putStrLn ("falser True False = " ++ show (Mo3.falser True False))
+
+  putStrLn ("ander True True = " ++ show (Mo3.ander True True))
+
+  putStrLn ("ander True False = " ++ show (Mo3.ander True False))
+  
+  putStrLn ("ander False False = " ++ show (Mo3.ander False False))
 
   putStrLn ("Enter a number: ")
 
@@ -97,4 +107,8 @@ main = do
   putStrLn ("To complete to so-called hanoi puzzle with 3 pegs and " ++ show (lastDigit) ++ " blocks it would take " ++ show (hanoiMovesCount) ++ " moves... or not..")
 
   putStrLn (show (hanoiMoves))
+
+  putStrLn ("And now for something completely random: ")
+
+  putStrLn (Mo3.testDrop 6 "Random9")
 
