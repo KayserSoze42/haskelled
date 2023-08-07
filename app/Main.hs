@@ -1,9 +1,10 @@
 module Main where
 
 import qualified Mo1 (hailstoneSeq, is6or9, getOpinion, intListLength, intToSum)
-import qualified Mo2 (printWM, toReversedList, doubleEverySecond, sumItUp, isValid, isValidCreditCard, CreditCard (..), CCID, CCN, extractCCID, extractCCN)
+import qualified Mo2 (printWM, toReversedList, doubleEverySecond, sumItUp, isValid, isValidCreditCard, CreditCard (..), CCID, CCN)
 import qualified Mo3 (hanoi, moveCount, testDrop, truer, falser, ander)
-import qualified Mo4 (javaRecipe, extractRecipeName, extractIngredients)
+import qualified Mo4 (javaRecipe, Recipe (..))
+import qualified Mo5 (Complex (..))
 
 list :: [Int]
 list = [4, 8, 15, 16, 23, 42]
@@ -24,9 +25,9 @@ main = do
 
   putStrLn ("--------------------------------------------------------------------------")
 
-  putStrLn ("To cook a silly thing called bytecode in " ++ show (Mo4.extractRecipeName Mo4.javaRecipe) ++ ", You will need the following:")
+  putStrLn ("To cook a silly thing called bytecode in " ++ show (Mo4.recipeName Mo4.javaRecipe) ++ ", You will need the following:")
 
-  mapM_ putStrLn (Mo4.extractIngredients Mo4.javaRecipe)
+  mapM_ putStrLn (Mo4.ingredients Mo4.javaRecipe)
 
   putStrLn ("--------------------------------------------------------------------------")
 
@@ -34,21 +35,21 @@ main = do
 
   putStrLn ("--------------------------------------------------------------------------")
 
-  putStrLn ("For Credit Card #" ++ show (Mo2.extractCCID creditCard1))
+  putStrLn ("For Credit Card #" ++ show (Mo2.ccID creditCard1))
 
-  putStrLn ("Valid card: " ++ show (Mo2.isValidCreditCard (Mo2.extractCCN creditCard1)))
-
-  putStrLn ("--------------------------------------------------------------------------")
-
-  putStrLn ("For Credit Card #" ++ show (Mo2.extractCCID creditCard2))
-
-  putStrLn ("Valid card: " ++ show (Mo2.isValidCreditCard (Mo2.extractCCN creditCard2)))
+  putStrLn ("Valid card: " ++ show (Mo2.isValidCreditCard (Mo2.ccN creditCard1)))
 
   putStrLn ("--------------------------------------------------------------------------")
 
-  putStrLn ("For Credit Card #" ++ show (Mo2.extractCCID creditCard3))
+  putStrLn ("For Credit Card #" ++ show (Mo2.ccID creditCard2))
 
-  putStrLn ("Valid card: " ++ show (Mo2.isValidCreditCard (Mo2.extractCCN creditCard3)))
+  putStrLn ("Valid card: " ++ show (Mo2.isValidCreditCard (Mo2.ccN creditCard2)))
+
+  putStrLn ("--------------------------------------------------------------------------")
+
+  putStrLn ("For Credit Card #" ++ show (Mo2.ccID creditCard3))
+
+  putStrLn ("Valid card: " ++ show (Mo2.isValidCreditCard (Mo2.ccN creditCard3)))
 
   putStrLn ("--------------------------------------------------------------------------")
 
@@ -64,6 +65,18 @@ main = do
 
   putStrLn ("Checking if valid: ")
 
-  putStrLn (show (Mo2.isValidCreditCard (Mo2.extractCCN userCard)))
+  putStrLn (show (Mo2.isValidCreditCard (Mo2.ccN userCard)))
 
   putStrLn ("Done for noe..")
+
+  let complexed = Mo5.Ende
+
+  let complexeder = Mo5.Cmplx "Z" complexed
+
+  let complexederer = Mo5.Cmplx "E" complexeder
+
+  let complexedererer = Mo5.Cmplx "E" complexederer
+
+  let complexederererer = Mo5.Cmplx "D" complexedererer
+
+  putStrLn (show complexederererer)

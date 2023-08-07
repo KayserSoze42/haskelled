@@ -1,10 +1,12 @@
-module Mo4 (javaRecipe, extractRecipeName, extractIngredients) where
+module Mo4 (javaRecipe, Recipe (..)) where
 
 type RecipeName = [Char]
 type Ingredients = [[Char]]
 
-data Recipe = Recipe RecipeName Ingredients
-              deriving (Show)
+data Recipe = Recipe { 
+                       recipeName  :: RecipeName
+		     , ingredients :: Ingredients
+		     } deriving (Show, Eq)
 
 printWM :: [Char]
 printWM = "Mo4"
@@ -12,8 +14,3 @@ printWM = "Mo4"
 javaRecipe :: Recipe
 javaRecipe = Recipe "Java" ["Water", "JVM", "JRE", "JDK", "OpenJDK", "OpenJDKjk", "Maven", "Gradle", "Cradle", "Ladle", "JUnit", "Coffee", "ptsd::endl"]
 
-extractRecipeName :: Recipe -> RecipeName
-extractRecipeName (Recipe recipeName _) = recipeName
-
-extractIngredients :: Recipe -> Ingredients
-extractIngredients (Recipe _ ingredients) = ingredients
