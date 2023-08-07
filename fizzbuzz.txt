@@ -1,0 +1,1000 @@
+#1 - none - not divisible by neither 6 nor 9
+#2 - none - not divisible by neither 6 nor 9
+#3 - none - not divisible by neither 6 nor 9
+#4 - none - not divisible by neither 6 nor 9
+#5 - none - not divisible by neither 6 nor 9
+#6 - Fizz - divisible by 6 only
+#7 - none - not divisible by neither 6 nor 9
+#8 - none - not divisible by neither 6 nor 9
+#9 - Buzz - divisible by 9 only
+#10 - none - not divisible by neither 6 nor 9
+#11 - none - not divisible by neither 6 nor 9
+#12 - Fizz - divisible by 6 only
+#13 - none - not divisible by neither 6 nor 9
+#14 - none - not divisible by neither 6 nor 9
+#15 - none - not divisible by neither 6 nor 9
+#16 - none - not divisible by neither 6 nor 9
+#17 - none - not divisible by neither 6 nor 9
+#18 - FizzBuzz - divisible by both 6 and 9
+#19 - none - not divisible by neither 6 nor 9
+#20 - none - not divisible by neither 6 nor 9
+#21 - none - not divisible by neither 6 nor 9
+#22 - none - not divisible by neither 6 nor 9
+#23 - none - not divisible by neither 6 nor 9
+#24 - Fizz - divisible by 6 only
+#25 - none - not divisible by neither 6 nor 9
+#26 - none - not divisible by neither 6 nor 9
+#27 - Buzz - divisible by 9 only
+#28 - none - not divisible by neither 6 nor 9
+#29 - none - not divisible by neither 6 nor 9
+#30 - Fizz - divisible by 6 only
+#31 - none - not divisible by neither 6 nor 9
+#32 - none - not divisible by neither 6 nor 9
+#33 - none - not divisible by neither 6 nor 9
+#34 - none - not divisible by neither 6 nor 9
+#35 - none - not divisible by neither 6 nor 9
+#36 - FizzBuzz - divisible by both 6 and 9
+#37 - none - not divisible by neither 6 nor 9
+#38 - none - not divisible by neither 6 nor 9
+#39 - none - not divisible by neither 6 nor 9
+#40 - none - not divisible by neither 6 nor 9
+#41 - none - not divisible by neither 6 nor 9
+#42 - Fizz - divisible by 6 only
+#43 - none - not divisible by neither 6 nor 9
+#44 - none - not divisible by neither 6 nor 9
+#45 - Buzz - divisible by 9 only
+#46 - none - not divisible by neither 6 nor 9
+#47 - none - not divisible by neither 6 nor 9
+#48 - Fizz - divisible by 6 only
+#49 - none - not divisible by neither 6 nor 9
+#50 - none - not divisible by neither 6 nor 9
+#51 - none - not divisible by neither 6 nor 9
+#52 - none - not divisible by neither 6 nor 9
+#53 - none - not divisible by neither 6 nor 9
+#54 - FizzBuzz - divisible by both 6 and 9
+#55 - none - not divisible by neither 6 nor 9
+#56 - none - not divisible by neither 6 nor 9
+#57 - none - not divisible by neither 6 nor 9
+#58 - none - not divisible by neither 6 nor 9
+#59 - none - not divisible by neither 6 nor 9
+#60 - Fizz - divisible by 6 only
+#61 - none - not divisible by neither 6 nor 9
+#62 - none - not divisible by neither 6 nor 9
+#63 - Buzz - divisible by 9 only
+#64 - none - not divisible by neither 6 nor 9
+#65 - none - not divisible by neither 6 nor 9
+#66 - Fizz - divisible by 6 only
+#67 - none - not divisible by neither 6 nor 9
+#68 - none - not divisible by neither 6 nor 9
+#69 - none - not divisible by neither 6 nor 9
+#70 - none - not divisible by neither 6 nor 9
+#71 - none - not divisible by neither 6 nor 9
+#72 - FizzBuzz - divisible by both 6 and 9
+#73 - none - not divisible by neither 6 nor 9
+#74 - none - not divisible by neither 6 nor 9
+#75 - none - not divisible by neither 6 nor 9
+#76 - none - not divisible by neither 6 nor 9
+#77 - none - not divisible by neither 6 nor 9
+#78 - Fizz - divisible by 6 only
+#79 - none - not divisible by neither 6 nor 9
+#80 - none - not divisible by neither 6 nor 9
+#81 - Buzz - divisible by 9 only
+#82 - none - not divisible by neither 6 nor 9
+#83 - none - not divisible by neither 6 nor 9
+#84 - Fizz - divisible by 6 only
+#85 - none - not divisible by neither 6 nor 9
+#86 - none - not divisible by neither 6 nor 9
+#87 - none - not divisible by neither 6 nor 9
+#88 - none - not divisible by neither 6 nor 9
+#89 - none - not divisible by neither 6 nor 9
+#90 - FizzBuzz - divisible by both 6 and 9
+#91 - none - not divisible by neither 6 nor 9
+#92 - none - not divisible by neither 6 nor 9
+#93 - none - not divisible by neither 6 nor 9
+#94 - none - not divisible by neither 6 nor 9
+#95 - none - not divisible by neither 6 nor 9
+#96 - Fizz - divisible by 6 only
+#97 - none - not divisible by neither 6 nor 9
+#98 - none - not divisible by neither 6 nor 9
+#99 - Buzz - divisible by 9 only
+#100 - none - not divisible by neither 6 nor 9
+#101 - none - not divisible by neither 6 nor 9
+#102 - Fizz - divisible by 6 only
+#103 - none - not divisible by neither 6 nor 9
+#104 - none - not divisible by neither 6 nor 9
+#105 - none - not divisible by neither 6 nor 9
+#106 - none - not divisible by neither 6 nor 9
+#107 - none - not divisible by neither 6 nor 9
+#108 - FizzBuzz - divisible by both 6 and 9
+#109 - none - not divisible by neither 6 nor 9
+#110 - none - not divisible by neither 6 nor 9
+#111 - none - not divisible by neither 6 nor 9
+#112 - none - not divisible by neither 6 nor 9
+#113 - none - not divisible by neither 6 nor 9
+#114 - Fizz - divisible by 6 only
+#115 - none - not divisible by neither 6 nor 9
+#116 - none - not divisible by neither 6 nor 9
+#117 - Buzz - divisible by 9 only
+#118 - none - not divisible by neither 6 nor 9
+#119 - none - not divisible by neither 6 nor 9
+#120 - Fizz - divisible by 6 only
+#121 - none - not divisible by neither 6 nor 9
+#122 - none - not divisible by neither 6 nor 9
+#123 - none - not divisible by neither 6 nor 9
+#124 - none - not divisible by neither 6 nor 9
+#125 - none - not divisible by neither 6 nor 9
+#126 - FizzBuzz - divisible by both 6 and 9
+#127 - none - not divisible by neither 6 nor 9
+#128 - none - not divisible by neither 6 nor 9
+#129 - none - not divisible by neither 6 nor 9
+#130 - none - not divisible by neither 6 nor 9
+#131 - none - not divisible by neither 6 nor 9
+#132 - Fizz - divisible by 6 only
+#133 - none - not divisible by neither 6 nor 9
+#134 - none - not divisible by neither 6 nor 9
+#135 - Buzz - divisible by 9 only
+#136 - none - not divisible by neither 6 nor 9
+#137 - none - not divisible by neither 6 nor 9
+#138 - Fizz - divisible by 6 only
+#139 - none - not divisible by neither 6 nor 9
+#140 - none - not divisible by neither 6 nor 9
+#141 - none - not divisible by neither 6 nor 9
+#142 - none - not divisible by neither 6 nor 9
+#143 - none - not divisible by neither 6 nor 9
+#144 - FizzBuzz - divisible by both 6 and 9
+#145 - none - not divisible by neither 6 nor 9
+#146 - none - not divisible by neither 6 nor 9
+#147 - none - not divisible by neither 6 nor 9
+#148 - none - not divisible by neither 6 nor 9
+#149 - none - not divisible by neither 6 nor 9
+#150 - Fizz - divisible by 6 only
+#151 - none - not divisible by neither 6 nor 9
+#152 - none - not divisible by neither 6 nor 9
+#153 - Buzz - divisible by 9 only
+#154 - none - not divisible by neither 6 nor 9
+#155 - none - not divisible by neither 6 nor 9
+#156 - Fizz - divisible by 6 only
+#157 - none - not divisible by neither 6 nor 9
+#158 - none - not divisible by neither 6 nor 9
+#159 - none - not divisible by neither 6 nor 9
+#160 - none - not divisible by neither 6 nor 9
+#161 - none - not divisible by neither 6 nor 9
+#162 - FizzBuzz - divisible by both 6 and 9
+#163 - none - not divisible by neither 6 nor 9
+#164 - none - not divisible by neither 6 nor 9
+#165 - none - not divisible by neither 6 nor 9
+#166 - none - not divisible by neither 6 nor 9
+#167 - none - not divisible by neither 6 nor 9
+#168 - Fizz - divisible by 6 only
+#169 - none - not divisible by neither 6 nor 9
+#170 - none - not divisible by neither 6 nor 9
+#171 - Buzz - divisible by 9 only
+#172 - none - not divisible by neither 6 nor 9
+#173 - none - not divisible by neither 6 nor 9
+#174 - Fizz - divisible by 6 only
+#175 - none - not divisible by neither 6 nor 9
+#176 - none - not divisible by neither 6 nor 9
+#177 - none - not divisible by neither 6 nor 9
+#178 - none - not divisible by neither 6 nor 9
+#179 - none - not divisible by neither 6 nor 9
+#180 - FizzBuzz - divisible by both 6 and 9
+#181 - none - not divisible by neither 6 nor 9
+#182 - none - not divisible by neither 6 nor 9
+#183 - none - not divisible by neither 6 nor 9
+#184 - none - not divisible by neither 6 nor 9
+#185 - none - not divisible by neither 6 nor 9
+#186 - Fizz - divisible by 6 only
+#187 - none - not divisible by neither 6 nor 9
+#188 - none - not divisible by neither 6 nor 9
+#189 - Buzz - divisible by 9 only
+#190 - none - not divisible by neither 6 nor 9
+#191 - none - not divisible by neither 6 nor 9
+#192 - Fizz - divisible by 6 only
+#193 - none - not divisible by neither 6 nor 9
+#194 - none - not divisible by neither 6 nor 9
+#195 - none - not divisible by neither 6 nor 9
+#196 - none - not divisible by neither 6 nor 9
+#197 - none - not divisible by neither 6 nor 9
+#198 - FizzBuzz - divisible by both 6 and 9
+#199 - none - not divisible by neither 6 nor 9
+#200 - none - not divisible by neither 6 nor 9
+#201 - none - not divisible by neither 6 nor 9
+#202 - none - not divisible by neither 6 nor 9
+#203 - none - not divisible by neither 6 nor 9
+#204 - Fizz - divisible by 6 only
+#205 - none - not divisible by neither 6 nor 9
+#206 - none - not divisible by neither 6 nor 9
+#207 - Buzz - divisible by 9 only
+#208 - none - not divisible by neither 6 nor 9
+#209 - none - not divisible by neither 6 nor 9
+#210 - Fizz - divisible by 6 only
+#211 - none - not divisible by neither 6 nor 9
+#212 - none - not divisible by neither 6 nor 9
+#213 - none - not divisible by neither 6 nor 9
+#214 - none - not divisible by neither 6 nor 9
+#215 - none - not divisible by neither 6 nor 9
+#216 - FizzBuzz - divisible by both 6 and 9
+#217 - none - not divisible by neither 6 nor 9
+#218 - none - not divisible by neither 6 nor 9
+#219 - none - not divisible by neither 6 nor 9
+#220 - none - not divisible by neither 6 nor 9
+#221 - none - not divisible by neither 6 nor 9
+#222 - Fizz - divisible by 6 only
+#223 - none - not divisible by neither 6 nor 9
+#224 - none - not divisible by neither 6 nor 9
+#225 - Buzz - divisible by 9 only
+#226 - none - not divisible by neither 6 nor 9
+#227 - none - not divisible by neither 6 nor 9
+#228 - Fizz - divisible by 6 only
+#229 - none - not divisible by neither 6 nor 9
+#230 - none - not divisible by neither 6 nor 9
+#231 - none - not divisible by neither 6 nor 9
+#232 - none - not divisible by neither 6 nor 9
+#233 - none - not divisible by neither 6 nor 9
+#234 - FizzBuzz - divisible by both 6 and 9
+#235 - none - not divisible by neither 6 nor 9
+#236 - none - not divisible by neither 6 nor 9
+#237 - none - not divisible by neither 6 nor 9
+#238 - none - not divisible by neither 6 nor 9
+#239 - none - not divisible by neither 6 nor 9
+#240 - Fizz - divisible by 6 only
+#241 - none - not divisible by neither 6 nor 9
+#242 - none - not divisible by neither 6 nor 9
+#243 - Buzz - divisible by 9 only
+#244 - none - not divisible by neither 6 nor 9
+#245 - none - not divisible by neither 6 nor 9
+#246 - Fizz - divisible by 6 only
+#247 - none - not divisible by neither 6 nor 9
+#248 - none - not divisible by neither 6 nor 9
+#249 - none - not divisible by neither 6 nor 9
+#250 - none - not divisible by neither 6 nor 9
+#251 - none - not divisible by neither 6 nor 9
+#252 - FizzBuzz - divisible by both 6 and 9
+#253 - none - not divisible by neither 6 nor 9
+#254 - none - not divisible by neither 6 nor 9
+#255 - none - not divisible by neither 6 nor 9
+#256 - none - not divisible by neither 6 nor 9
+#257 - none - not divisible by neither 6 nor 9
+#258 - Fizz - divisible by 6 only
+#259 - none - not divisible by neither 6 nor 9
+#260 - none - not divisible by neither 6 nor 9
+#261 - Buzz - divisible by 9 only
+#262 - none - not divisible by neither 6 nor 9
+#263 - none - not divisible by neither 6 nor 9
+#264 - Fizz - divisible by 6 only
+#265 - none - not divisible by neither 6 nor 9
+#266 - none - not divisible by neither 6 nor 9
+#267 - none - not divisible by neither 6 nor 9
+#268 - none - not divisible by neither 6 nor 9
+#269 - none - not divisible by neither 6 nor 9
+#270 - FizzBuzz - divisible by both 6 and 9
+#271 - none - not divisible by neither 6 nor 9
+#272 - none - not divisible by neither 6 nor 9
+#273 - none - not divisible by neither 6 nor 9
+#274 - none - not divisible by neither 6 nor 9
+#275 - none - not divisible by neither 6 nor 9
+#276 - Fizz - divisible by 6 only
+#277 - none - not divisible by neither 6 nor 9
+#278 - none - not divisible by neither 6 nor 9
+#279 - Buzz - divisible by 9 only
+#280 - none - not divisible by neither 6 nor 9
+#281 - none - not divisible by neither 6 nor 9
+#282 - Fizz - divisible by 6 only
+#283 - none - not divisible by neither 6 nor 9
+#284 - none - not divisible by neither 6 nor 9
+#285 - none - not divisible by neither 6 nor 9
+#286 - none - not divisible by neither 6 nor 9
+#287 - none - not divisible by neither 6 nor 9
+#288 - FizzBuzz - divisible by both 6 and 9
+#289 - none - not divisible by neither 6 nor 9
+#290 - none - not divisible by neither 6 nor 9
+#291 - none - not divisible by neither 6 nor 9
+#292 - none - not divisible by neither 6 nor 9
+#293 - none - not divisible by neither 6 nor 9
+#294 - Fizz - divisible by 6 only
+#295 - none - not divisible by neither 6 nor 9
+#296 - none - not divisible by neither 6 nor 9
+#297 - Buzz - divisible by 9 only
+#298 - none - not divisible by neither 6 nor 9
+#299 - none - not divisible by neither 6 nor 9
+#300 - Fizz - divisible by 6 only
+#301 - none - not divisible by neither 6 nor 9
+#302 - none - not divisible by neither 6 nor 9
+#303 - none - not divisible by neither 6 nor 9
+#304 - none - not divisible by neither 6 nor 9
+#305 - none - not divisible by neither 6 nor 9
+#306 - FizzBuzz - divisible by both 6 and 9
+#307 - none - not divisible by neither 6 nor 9
+#308 - none - not divisible by neither 6 nor 9
+#309 - none - not divisible by neither 6 nor 9
+#310 - none - not divisible by neither 6 nor 9
+#311 - none - not divisible by neither 6 nor 9
+#312 - Fizz - divisible by 6 only
+#313 - none - not divisible by neither 6 nor 9
+#314 - none - not divisible by neither 6 nor 9
+#315 - Buzz - divisible by 9 only
+#316 - none - not divisible by neither 6 nor 9
+#317 - none - not divisible by neither 6 nor 9
+#318 - Fizz - divisible by 6 only
+#319 - none - not divisible by neither 6 nor 9
+#320 - none - not divisible by neither 6 nor 9
+#321 - none - not divisible by neither 6 nor 9
+#322 - none - not divisible by neither 6 nor 9
+#323 - none - not divisible by neither 6 nor 9
+#324 - FizzBuzz - divisible by both 6 and 9
+#325 - none - not divisible by neither 6 nor 9
+#326 - none - not divisible by neither 6 nor 9
+#327 - none - not divisible by neither 6 nor 9
+#328 - none - not divisible by neither 6 nor 9
+#329 - none - not divisible by neither 6 nor 9
+#330 - Fizz - divisible by 6 only
+#331 - none - not divisible by neither 6 nor 9
+#332 - none - not divisible by neither 6 nor 9
+#333 - Buzz - divisible by 9 only
+#334 - none - not divisible by neither 6 nor 9
+#335 - none - not divisible by neither 6 nor 9
+#336 - Fizz - divisible by 6 only
+#337 - none - not divisible by neither 6 nor 9
+#338 - none - not divisible by neither 6 nor 9
+#339 - none - not divisible by neither 6 nor 9
+#340 - none - not divisible by neither 6 nor 9
+#341 - none - not divisible by neither 6 nor 9
+#342 - FizzBuzz - divisible by both 6 and 9
+#343 - none - not divisible by neither 6 nor 9
+#344 - none - not divisible by neither 6 nor 9
+#345 - none - not divisible by neither 6 nor 9
+#346 - none - not divisible by neither 6 nor 9
+#347 - none - not divisible by neither 6 nor 9
+#348 - Fizz - divisible by 6 only
+#349 - none - not divisible by neither 6 nor 9
+#350 - none - not divisible by neither 6 nor 9
+#351 - Buzz - divisible by 9 only
+#352 - none - not divisible by neither 6 nor 9
+#353 - none - not divisible by neither 6 nor 9
+#354 - Fizz - divisible by 6 only
+#355 - none - not divisible by neither 6 nor 9
+#356 - none - not divisible by neither 6 nor 9
+#357 - none - not divisible by neither 6 nor 9
+#358 - none - not divisible by neither 6 nor 9
+#359 - none - not divisible by neither 6 nor 9
+#360 - FizzBuzz - divisible by both 6 and 9
+#361 - none - not divisible by neither 6 nor 9
+#362 - none - not divisible by neither 6 nor 9
+#363 - none - not divisible by neither 6 nor 9
+#364 - none - not divisible by neither 6 nor 9
+#365 - none - not divisible by neither 6 nor 9
+#366 - Fizz - divisible by 6 only
+#367 - none - not divisible by neither 6 nor 9
+#368 - none - not divisible by neither 6 nor 9
+#369 - Buzz - divisible by 9 only
+#370 - none - not divisible by neither 6 nor 9
+#371 - none - not divisible by neither 6 nor 9
+#372 - Fizz - divisible by 6 only
+#373 - none - not divisible by neither 6 nor 9
+#374 - none - not divisible by neither 6 nor 9
+#375 - none - not divisible by neither 6 nor 9
+#376 - none - not divisible by neither 6 nor 9
+#377 - none - not divisible by neither 6 nor 9
+#378 - FizzBuzz - divisible by both 6 and 9
+#379 - none - not divisible by neither 6 nor 9
+#380 - none - not divisible by neither 6 nor 9
+#381 - none - not divisible by neither 6 nor 9
+#382 - none - not divisible by neither 6 nor 9
+#383 - none - not divisible by neither 6 nor 9
+#384 - Fizz - divisible by 6 only
+#385 - none - not divisible by neither 6 nor 9
+#386 - none - not divisible by neither 6 nor 9
+#387 - Buzz - divisible by 9 only
+#388 - none - not divisible by neither 6 nor 9
+#389 - none - not divisible by neither 6 nor 9
+#390 - Fizz - divisible by 6 only
+#391 - none - not divisible by neither 6 nor 9
+#392 - none - not divisible by neither 6 nor 9
+#393 - none - not divisible by neither 6 nor 9
+#394 - none - not divisible by neither 6 nor 9
+#395 - none - not divisible by neither 6 nor 9
+#396 - FizzBuzz - divisible by both 6 and 9
+#397 - none - not divisible by neither 6 nor 9
+#398 - none - not divisible by neither 6 nor 9
+#399 - none - not divisible by neither 6 nor 9
+#400 - none - not divisible by neither 6 nor 9
+#401 - none - not divisible by neither 6 nor 9
+#402 - Fizz - divisible by 6 only
+#403 - none - not divisible by neither 6 nor 9
+#404 - none - not divisible by neither 6 nor 9
+#405 - Buzz - divisible by 9 only
+#406 - none - not divisible by neither 6 nor 9
+#407 - none - not divisible by neither 6 nor 9
+#408 - Fizz - divisible by 6 only
+#409 - none - not divisible by neither 6 nor 9
+#410 - none - not divisible by neither 6 nor 9
+#411 - none - not divisible by neither 6 nor 9
+#412 - none - not divisible by neither 6 nor 9
+#413 - none - not divisible by neither 6 nor 9
+#414 - FizzBuzz - divisible by both 6 and 9
+#415 - none - not divisible by neither 6 nor 9
+#416 - none - not divisible by neither 6 nor 9
+#417 - none - not divisible by neither 6 nor 9
+#418 - none - not divisible by neither 6 nor 9
+#419 - none - not divisible by neither 6 nor 9
+#420 - Fizz - divisible by 6 only
+#421 - none - not divisible by neither 6 nor 9
+#422 - none - not divisible by neither 6 nor 9
+#423 - Buzz - divisible by 9 only
+#424 - none - not divisible by neither 6 nor 9
+#425 - none - not divisible by neither 6 nor 9
+#426 - Fizz - divisible by 6 only
+#427 - none - not divisible by neither 6 nor 9
+#428 - none - not divisible by neither 6 nor 9
+#429 - none - not divisible by neither 6 nor 9
+#430 - none - not divisible by neither 6 nor 9
+#431 - none - not divisible by neither 6 nor 9
+#432 - FizzBuzz - divisible by both 6 and 9
+#433 - none - not divisible by neither 6 nor 9
+#434 - none - not divisible by neither 6 nor 9
+#435 - none - not divisible by neither 6 nor 9
+#436 - none - not divisible by neither 6 nor 9
+#437 - none - not divisible by neither 6 nor 9
+#438 - Fizz - divisible by 6 only
+#439 - none - not divisible by neither 6 nor 9
+#440 - none - not divisible by neither 6 nor 9
+#441 - Buzz - divisible by 9 only
+#442 - none - not divisible by neither 6 nor 9
+#443 - none - not divisible by neither 6 nor 9
+#444 - Fizz - divisible by 6 only
+#445 - none - not divisible by neither 6 nor 9
+#446 - none - not divisible by neither 6 nor 9
+#447 - none - not divisible by neither 6 nor 9
+#448 - none - not divisible by neither 6 nor 9
+#449 - none - not divisible by neither 6 nor 9
+#450 - FizzBuzz - divisible by both 6 and 9
+#451 - none - not divisible by neither 6 nor 9
+#452 - none - not divisible by neither 6 nor 9
+#453 - none - not divisible by neither 6 nor 9
+#454 - none - not divisible by neither 6 nor 9
+#455 - none - not divisible by neither 6 nor 9
+#456 - Fizz - divisible by 6 only
+#457 - none - not divisible by neither 6 nor 9
+#458 - none - not divisible by neither 6 nor 9
+#459 - Buzz - divisible by 9 only
+#460 - none - not divisible by neither 6 nor 9
+#461 - none - not divisible by neither 6 nor 9
+#462 - Fizz - divisible by 6 only
+#463 - none - not divisible by neither 6 nor 9
+#464 - none - not divisible by neither 6 nor 9
+#465 - none - not divisible by neither 6 nor 9
+#466 - none - not divisible by neither 6 nor 9
+#467 - none - not divisible by neither 6 nor 9
+#468 - FizzBuzz - divisible by both 6 and 9
+#469 - none - not divisible by neither 6 nor 9
+#470 - none - not divisible by neither 6 nor 9
+#471 - none - not divisible by neither 6 nor 9
+#472 - none - not divisible by neither 6 nor 9
+#473 - none - not divisible by neither 6 nor 9
+#474 - Fizz - divisible by 6 only
+#475 - none - not divisible by neither 6 nor 9
+#476 - none - not divisible by neither 6 nor 9
+#477 - Buzz - divisible by 9 only
+#478 - none - not divisible by neither 6 nor 9
+#479 - none - not divisible by neither 6 nor 9
+#480 - Fizz - divisible by 6 only
+#481 - none - not divisible by neither 6 nor 9
+#482 - none - not divisible by neither 6 nor 9
+#483 - none - not divisible by neither 6 nor 9
+#484 - none - not divisible by neither 6 nor 9
+#485 - none - not divisible by neither 6 nor 9
+#486 - FizzBuzz - divisible by both 6 and 9
+#487 - none - not divisible by neither 6 nor 9
+#488 - none - not divisible by neither 6 nor 9
+#489 - none - not divisible by neither 6 nor 9
+#490 - none - not divisible by neither 6 nor 9
+#491 - none - not divisible by neither 6 nor 9
+#492 - Fizz - divisible by 6 only
+#493 - none - not divisible by neither 6 nor 9
+#494 - none - not divisible by neither 6 nor 9
+#495 - Buzz - divisible by 9 only
+#496 - none - not divisible by neither 6 nor 9
+#497 - none - not divisible by neither 6 nor 9
+#498 - Fizz - divisible by 6 only
+#499 - none - not divisible by neither 6 nor 9
+#500 - none - not divisible by neither 6 nor 9
+#501 - none - not divisible by neither 6 nor 9
+#502 - none - not divisible by neither 6 nor 9
+#503 - none - not divisible by neither 6 nor 9
+#504 - FizzBuzz - divisible by both 6 and 9
+#505 - none - not divisible by neither 6 nor 9
+#506 - none - not divisible by neither 6 nor 9
+#507 - none - not divisible by neither 6 nor 9
+#508 - none - not divisible by neither 6 nor 9
+#509 - none - not divisible by neither 6 nor 9
+#510 - Fizz - divisible by 6 only
+#511 - none - not divisible by neither 6 nor 9
+#512 - none - not divisible by neither 6 nor 9
+#513 - Buzz - divisible by 9 only
+#514 - none - not divisible by neither 6 nor 9
+#515 - none - not divisible by neither 6 nor 9
+#516 - Fizz - divisible by 6 only
+#517 - none - not divisible by neither 6 nor 9
+#518 - none - not divisible by neither 6 nor 9
+#519 - none - not divisible by neither 6 nor 9
+#520 - none - not divisible by neither 6 nor 9
+#521 - none - not divisible by neither 6 nor 9
+#522 - FizzBuzz - divisible by both 6 and 9
+#523 - none - not divisible by neither 6 nor 9
+#524 - none - not divisible by neither 6 nor 9
+#525 - none - not divisible by neither 6 nor 9
+#526 - none - not divisible by neither 6 nor 9
+#527 - none - not divisible by neither 6 nor 9
+#528 - Fizz - divisible by 6 only
+#529 - none - not divisible by neither 6 nor 9
+#530 - none - not divisible by neither 6 nor 9
+#531 - Buzz - divisible by 9 only
+#532 - none - not divisible by neither 6 nor 9
+#533 - none - not divisible by neither 6 nor 9
+#534 - Fizz - divisible by 6 only
+#535 - none - not divisible by neither 6 nor 9
+#536 - none - not divisible by neither 6 nor 9
+#537 - none - not divisible by neither 6 nor 9
+#538 - none - not divisible by neither 6 nor 9
+#539 - none - not divisible by neither 6 nor 9
+#540 - FizzBuzz - divisible by both 6 and 9
+#541 - none - not divisible by neither 6 nor 9
+#542 - none - not divisible by neither 6 nor 9
+#543 - none - not divisible by neither 6 nor 9
+#544 - none - not divisible by neither 6 nor 9
+#545 - none - not divisible by neither 6 nor 9
+#546 - Fizz - divisible by 6 only
+#547 - none - not divisible by neither 6 nor 9
+#548 - none - not divisible by neither 6 nor 9
+#549 - Buzz - divisible by 9 only
+#550 - none - not divisible by neither 6 nor 9
+#551 - none - not divisible by neither 6 nor 9
+#552 - Fizz - divisible by 6 only
+#553 - none - not divisible by neither 6 nor 9
+#554 - none - not divisible by neither 6 nor 9
+#555 - none - not divisible by neither 6 nor 9
+#556 - none - not divisible by neither 6 nor 9
+#557 - none - not divisible by neither 6 nor 9
+#558 - FizzBuzz - divisible by both 6 and 9
+#559 - none - not divisible by neither 6 nor 9
+#560 - none - not divisible by neither 6 nor 9
+#561 - none - not divisible by neither 6 nor 9
+#562 - none - not divisible by neither 6 nor 9
+#563 - none - not divisible by neither 6 nor 9
+#564 - Fizz - divisible by 6 only
+#565 - none - not divisible by neither 6 nor 9
+#566 - none - not divisible by neither 6 nor 9
+#567 - Buzz - divisible by 9 only
+#568 - none - not divisible by neither 6 nor 9
+#569 - none - not divisible by neither 6 nor 9
+#570 - Fizz - divisible by 6 only
+#571 - none - not divisible by neither 6 nor 9
+#572 - none - not divisible by neither 6 nor 9
+#573 - none - not divisible by neither 6 nor 9
+#574 - none - not divisible by neither 6 nor 9
+#575 - none - not divisible by neither 6 nor 9
+#576 - FizzBuzz - divisible by both 6 and 9
+#577 - none - not divisible by neither 6 nor 9
+#578 - none - not divisible by neither 6 nor 9
+#579 - none - not divisible by neither 6 nor 9
+#580 - none - not divisible by neither 6 nor 9
+#581 - none - not divisible by neither 6 nor 9
+#582 - Fizz - divisible by 6 only
+#583 - none - not divisible by neither 6 nor 9
+#584 - none - not divisible by neither 6 nor 9
+#585 - Buzz - divisible by 9 only
+#586 - none - not divisible by neither 6 nor 9
+#587 - none - not divisible by neither 6 nor 9
+#588 - Fizz - divisible by 6 only
+#589 - none - not divisible by neither 6 nor 9
+#590 - none - not divisible by neither 6 nor 9
+#591 - none - not divisible by neither 6 nor 9
+#592 - none - not divisible by neither 6 nor 9
+#593 - none - not divisible by neither 6 nor 9
+#594 - FizzBuzz - divisible by both 6 and 9
+#595 - none - not divisible by neither 6 nor 9
+#596 - none - not divisible by neither 6 nor 9
+#597 - none - not divisible by neither 6 nor 9
+#598 - none - not divisible by neither 6 nor 9
+#599 - none - not divisible by neither 6 nor 9
+#600 - Fizz - divisible by 6 only
+#601 - none - not divisible by neither 6 nor 9
+#602 - none - not divisible by neither 6 nor 9
+#603 - Buzz - divisible by 9 only
+#604 - none - not divisible by neither 6 nor 9
+#605 - none - not divisible by neither 6 nor 9
+#606 - Fizz - divisible by 6 only
+#607 - none - not divisible by neither 6 nor 9
+#608 - none - not divisible by neither 6 nor 9
+#609 - none - not divisible by neither 6 nor 9
+#610 - none - not divisible by neither 6 nor 9
+#611 - none - not divisible by neither 6 nor 9
+#612 - FizzBuzz - divisible by both 6 and 9
+#613 - none - not divisible by neither 6 nor 9
+#614 - none - not divisible by neither 6 nor 9
+#615 - none - not divisible by neither 6 nor 9
+#616 - none - not divisible by neither 6 nor 9
+#617 - none - not divisible by neither 6 nor 9
+#618 - Fizz - divisible by 6 only
+#619 - none - not divisible by neither 6 nor 9
+#620 - none - not divisible by neither 6 nor 9
+#621 - Buzz - divisible by 9 only
+#622 - none - not divisible by neither 6 nor 9
+#623 - none - not divisible by neither 6 nor 9
+#624 - Fizz - divisible by 6 only
+#625 - none - not divisible by neither 6 nor 9
+#626 - none - not divisible by neither 6 nor 9
+#627 - none - not divisible by neither 6 nor 9
+#628 - none - not divisible by neither 6 nor 9
+#629 - none - not divisible by neither 6 nor 9
+#630 - FizzBuzz - divisible by both 6 and 9
+#631 - none - not divisible by neither 6 nor 9
+#632 - none - not divisible by neither 6 nor 9
+#633 - none - not divisible by neither 6 nor 9
+#634 - none - not divisible by neither 6 nor 9
+#635 - none - not divisible by neither 6 nor 9
+#636 - Fizz - divisible by 6 only
+#637 - none - not divisible by neither 6 nor 9
+#638 - none - not divisible by neither 6 nor 9
+#639 - Buzz - divisible by 9 only
+#640 - none - not divisible by neither 6 nor 9
+#641 - none - not divisible by neither 6 nor 9
+#642 - Fizz - divisible by 6 only
+#643 - none - not divisible by neither 6 nor 9
+#644 - none - not divisible by neither 6 nor 9
+#645 - none - not divisible by neither 6 nor 9
+#646 - none - not divisible by neither 6 nor 9
+#647 - none - not divisible by neither 6 nor 9
+#648 - FizzBuzz - divisible by both 6 and 9
+#649 - none - not divisible by neither 6 nor 9
+#650 - none - not divisible by neither 6 nor 9
+#651 - none - not divisible by neither 6 nor 9
+#652 - none - not divisible by neither 6 nor 9
+#653 - none - not divisible by neither 6 nor 9
+#654 - Fizz - divisible by 6 only
+#655 - none - not divisible by neither 6 nor 9
+#656 - none - not divisible by neither 6 nor 9
+#657 - Buzz - divisible by 9 only
+#658 - none - not divisible by neither 6 nor 9
+#659 - none - not divisible by neither 6 nor 9
+#660 - Fizz - divisible by 6 only
+#661 - none - not divisible by neither 6 nor 9
+#662 - none - not divisible by neither 6 nor 9
+#663 - none - not divisible by neither 6 nor 9
+#664 - none - not divisible by neither 6 nor 9
+#665 - none - not divisible by neither 6 nor 9
+#666 - FizzBuzz - divisible by both 6 and 9
+#667 - none - not divisible by neither 6 nor 9
+#668 - none - not divisible by neither 6 nor 9
+#669 - none - not divisible by neither 6 nor 9
+#670 - none - not divisible by neither 6 nor 9
+#671 - none - not divisible by neither 6 nor 9
+#672 - Fizz - divisible by 6 only
+#673 - none - not divisible by neither 6 nor 9
+#674 - none - not divisible by neither 6 nor 9
+#675 - Buzz - divisible by 9 only
+#676 - none - not divisible by neither 6 nor 9
+#677 - none - not divisible by neither 6 nor 9
+#678 - Fizz - divisible by 6 only
+#679 - none - not divisible by neither 6 nor 9
+#680 - none - not divisible by neither 6 nor 9
+#681 - none - not divisible by neither 6 nor 9
+#682 - none - not divisible by neither 6 nor 9
+#683 - none - not divisible by neither 6 nor 9
+#684 - FizzBuzz - divisible by both 6 and 9
+#685 - none - not divisible by neither 6 nor 9
+#686 - none - not divisible by neither 6 nor 9
+#687 - none - not divisible by neither 6 nor 9
+#688 - none - not divisible by neither 6 nor 9
+#689 - none - not divisible by neither 6 nor 9
+#690 - Fizz - divisible by 6 only
+#691 - none - not divisible by neither 6 nor 9
+#692 - none - not divisible by neither 6 nor 9
+#693 - Buzz - divisible by 9 only
+#694 - none - not divisible by neither 6 nor 9
+#695 - none - not divisible by neither 6 nor 9
+#696 - Fizz - divisible by 6 only
+#697 - none - not divisible by neither 6 nor 9
+#698 - none - not divisible by neither 6 nor 9
+#699 - none - not divisible by neither 6 nor 9
+#700 - none - not divisible by neither 6 nor 9
+#701 - none - not divisible by neither 6 nor 9
+#702 - FizzBuzz - divisible by both 6 and 9
+#703 - none - not divisible by neither 6 nor 9
+#704 - none - not divisible by neither 6 nor 9
+#705 - none - not divisible by neither 6 nor 9
+#706 - none - not divisible by neither 6 nor 9
+#707 - none - not divisible by neither 6 nor 9
+#708 - Fizz - divisible by 6 only
+#709 - none - not divisible by neither 6 nor 9
+#710 - none - not divisible by neither 6 nor 9
+#711 - Buzz - divisible by 9 only
+#712 - none - not divisible by neither 6 nor 9
+#713 - none - not divisible by neither 6 nor 9
+#714 - Fizz - divisible by 6 only
+#715 - none - not divisible by neither 6 nor 9
+#716 - none - not divisible by neither 6 nor 9
+#717 - none - not divisible by neither 6 nor 9
+#718 - none - not divisible by neither 6 nor 9
+#719 - none - not divisible by neither 6 nor 9
+#720 - FizzBuzz - divisible by both 6 and 9
+#721 - none - not divisible by neither 6 nor 9
+#722 - none - not divisible by neither 6 nor 9
+#723 - none - not divisible by neither 6 nor 9
+#724 - none - not divisible by neither 6 nor 9
+#725 - none - not divisible by neither 6 nor 9
+#726 - Fizz - divisible by 6 only
+#727 - none - not divisible by neither 6 nor 9
+#728 - none - not divisible by neither 6 nor 9
+#729 - Buzz - divisible by 9 only
+#730 - none - not divisible by neither 6 nor 9
+#731 - none - not divisible by neither 6 nor 9
+#732 - Fizz - divisible by 6 only
+#733 - none - not divisible by neither 6 nor 9
+#734 - none - not divisible by neither 6 nor 9
+#735 - none - not divisible by neither 6 nor 9
+#736 - none - not divisible by neither 6 nor 9
+#737 - none - not divisible by neither 6 nor 9
+#738 - FizzBuzz - divisible by both 6 and 9
+#739 - none - not divisible by neither 6 nor 9
+#740 - none - not divisible by neither 6 nor 9
+#741 - none - not divisible by neither 6 nor 9
+#742 - none - not divisible by neither 6 nor 9
+#743 - none - not divisible by neither 6 nor 9
+#744 - Fizz - divisible by 6 only
+#745 - none - not divisible by neither 6 nor 9
+#746 - none - not divisible by neither 6 nor 9
+#747 - Buzz - divisible by 9 only
+#748 - none - not divisible by neither 6 nor 9
+#749 - none - not divisible by neither 6 nor 9
+#750 - Fizz - divisible by 6 only
+#751 - none - not divisible by neither 6 nor 9
+#752 - none - not divisible by neither 6 nor 9
+#753 - none - not divisible by neither 6 nor 9
+#754 - none - not divisible by neither 6 nor 9
+#755 - none - not divisible by neither 6 nor 9
+#756 - FizzBuzz - divisible by both 6 and 9
+#757 - none - not divisible by neither 6 nor 9
+#758 - none - not divisible by neither 6 nor 9
+#759 - none - not divisible by neither 6 nor 9
+#760 - none - not divisible by neither 6 nor 9
+#761 - none - not divisible by neither 6 nor 9
+#762 - Fizz - divisible by 6 only
+#763 - none - not divisible by neither 6 nor 9
+#764 - none - not divisible by neither 6 nor 9
+#765 - Buzz - divisible by 9 only
+#766 - none - not divisible by neither 6 nor 9
+#767 - none - not divisible by neither 6 nor 9
+#768 - Fizz - divisible by 6 only
+#769 - none - not divisible by neither 6 nor 9
+#770 - none - not divisible by neither 6 nor 9
+#771 - none - not divisible by neither 6 nor 9
+#772 - none - not divisible by neither 6 nor 9
+#773 - none - not divisible by neither 6 nor 9
+#774 - FizzBuzz - divisible by both 6 and 9
+#775 - none - not divisible by neither 6 nor 9
+#776 - none - not divisible by neither 6 nor 9
+#777 - none - not divisible by neither 6 nor 9
+#778 - none - not divisible by neither 6 nor 9
+#779 - none - not divisible by neither 6 nor 9
+#780 - Fizz - divisible by 6 only
+#781 - none - not divisible by neither 6 nor 9
+#782 - none - not divisible by neither 6 nor 9
+#783 - Buzz - divisible by 9 only
+#784 - none - not divisible by neither 6 nor 9
+#785 - none - not divisible by neither 6 nor 9
+#786 - Fizz - divisible by 6 only
+#787 - none - not divisible by neither 6 nor 9
+#788 - none - not divisible by neither 6 nor 9
+#789 - none - not divisible by neither 6 nor 9
+#790 - none - not divisible by neither 6 nor 9
+#791 - none - not divisible by neither 6 nor 9
+#792 - FizzBuzz - divisible by both 6 and 9
+#793 - none - not divisible by neither 6 nor 9
+#794 - none - not divisible by neither 6 nor 9
+#795 - none - not divisible by neither 6 nor 9
+#796 - none - not divisible by neither 6 nor 9
+#797 - none - not divisible by neither 6 nor 9
+#798 - Fizz - divisible by 6 only
+#799 - none - not divisible by neither 6 nor 9
+#800 - none - not divisible by neither 6 nor 9
+#801 - Buzz - divisible by 9 only
+#802 - none - not divisible by neither 6 nor 9
+#803 - none - not divisible by neither 6 nor 9
+#804 - Fizz - divisible by 6 only
+#805 - none - not divisible by neither 6 nor 9
+#806 - none - not divisible by neither 6 nor 9
+#807 - none - not divisible by neither 6 nor 9
+#808 - none - not divisible by neither 6 nor 9
+#809 - none - not divisible by neither 6 nor 9
+#810 - FizzBuzz - divisible by both 6 and 9
+#811 - none - not divisible by neither 6 nor 9
+#812 - none - not divisible by neither 6 nor 9
+#813 - none - not divisible by neither 6 nor 9
+#814 - none - not divisible by neither 6 nor 9
+#815 - none - not divisible by neither 6 nor 9
+#816 - Fizz - divisible by 6 only
+#817 - none - not divisible by neither 6 nor 9
+#818 - none - not divisible by neither 6 nor 9
+#819 - Buzz - divisible by 9 only
+#820 - none - not divisible by neither 6 nor 9
+#821 - none - not divisible by neither 6 nor 9
+#822 - Fizz - divisible by 6 only
+#823 - none - not divisible by neither 6 nor 9
+#824 - none - not divisible by neither 6 nor 9
+#825 - none - not divisible by neither 6 nor 9
+#826 - none - not divisible by neither 6 nor 9
+#827 - none - not divisible by neither 6 nor 9
+#828 - FizzBuzz - divisible by both 6 and 9
+#829 - none - not divisible by neither 6 nor 9
+#830 - none - not divisible by neither 6 nor 9
+#831 - none - not divisible by neither 6 nor 9
+#832 - none - not divisible by neither 6 nor 9
+#833 - none - not divisible by neither 6 nor 9
+#834 - Fizz - divisible by 6 only
+#835 - none - not divisible by neither 6 nor 9
+#836 - none - not divisible by neither 6 nor 9
+#837 - Buzz - divisible by 9 only
+#838 - none - not divisible by neither 6 nor 9
+#839 - none - not divisible by neither 6 nor 9
+#840 - Fizz - divisible by 6 only
+#841 - none - not divisible by neither 6 nor 9
+#842 - none - not divisible by neither 6 nor 9
+#843 - none - not divisible by neither 6 nor 9
+#844 - none - not divisible by neither 6 nor 9
+#845 - none - not divisible by neither 6 nor 9
+#846 - FizzBuzz - divisible by both 6 and 9
+#847 - none - not divisible by neither 6 nor 9
+#848 - none - not divisible by neither 6 nor 9
+#849 - none - not divisible by neither 6 nor 9
+#850 - none - not divisible by neither 6 nor 9
+#851 - none - not divisible by neither 6 nor 9
+#852 - Fizz - divisible by 6 only
+#853 - none - not divisible by neither 6 nor 9
+#854 - none - not divisible by neither 6 nor 9
+#855 - Buzz - divisible by 9 only
+#856 - none - not divisible by neither 6 nor 9
+#857 - none - not divisible by neither 6 nor 9
+#858 - Fizz - divisible by 6 only
+#859 - none - not divisible by neither 6 nor 9
+#860 - none - not divisible by neither 6 nor 9
+#861 - none - not divisible by neither 6 nor 9
+#862 - none - not divisible by neither 6 nor 9
+#863 - none - not divisible by neither 6 nor 9
+#864 - FizzBuzz - divisible by both 6 and 9
+#865 - none - not divisible by neither 6 nor 9
+#866 - none - not divisible by neither 6 nor 9
+#867 - none - not divisible by neither 6 nor 9
+#868 - none - not divisible by neither 6 nor 9
+#869 - none - not divisible by neither 6 nor 9
+#870 - Fizz - divisible by 6 only
+#871 - none - not divisible by neither 6 nor 9
+#872 - none - not divisible by neither 6 nor 9
+#873 - Buzz - divisible by 9 only
+#874 - none - not divisible by neither 6 nor 9
+#875 - none - not divisible by neither 6 nor 9
+#876 - Fizz - divisible by 6 only
+#877 - none - not divisible by neither 6 nor 9
+#878 - none - not divisible by neither 6 nor 9
+#879 - none - not divisible by neither 6 nor 9
+#880 - none - not divisible by neither 6 nor 9
+#881 - none - not divisible by neither 6 nor 9
+#882 - FizzBuzz - divisible by both 6 and 9
+#883 - none - not divisible by neither 6 nor 9
+#884 - none - not divisible by neither 6 nor 9
+#885 - none - not divisible by neither 6 nor 9
+#886 - none - not divisible by neither 6 nor 9
+#887 - none - not divisible by neither 6 nor 9
+#888 - Fizz - divisible by 6 only
+#889 - none - not divisible by neither 6 nor 9
+#890 - none - not divisible by neither 6 nor 9
+#891 - Buzz - divisible by 9 only
+#892 - none - not divisible by neither 6 nor 9
+#893 - none - not divisible by neither 6 nor 9
+#894 - Fizz - divisible by 6 only
+#895 - none - not divisible by neither 6 nor 9
+#896 - none - not divisible by neither 6 nor 9
+#897 - none - not divisible by neither 6 nor 9
+#898 - none - not divisible by neither 6 nor 9
+#899 - none - not divisible by neither 6 nor 9
+#900 - FizzBuzz - divisible by both 6 and 9
+#901 - none - not divisible by neither 6 nor 9
+#902 - none - not divisible by neither 6 nor 9
+#903 - none - not divisible by neither 6 nor 9
+#904 - none - not divisible by neither 6 nor 9
+#905 - none - not divisible by neither 6 nor 9
+#906 - Fizz - divisible by 6 only
+#907 - none - not divisible by neither 6 nor 9
+#908 - none - not divisible by neither 6 nor 9
+#909 - Buzz - divisible by 9 only
+#910 - none - not divisible by neither 6 nor 9
+#911 - none - not divisible by neither 6 nor 9
+#912 - Fizz - divisible by 6 only
+#913 - none - not divisible by neither 6 nor 9
+#914 - none - not divisible by neither 6 nor 9
+#915 - none - not divisible by neither 6 nor 9
+#916 - none - not divisible by neither 6 nor 9
+#917 - none - not divisible by neither 6 nor 9
+#918 - FizzBuzz - divisible by both 6 and 9
+#919 - none - not divisible by neither 6 nor 9
+#920 - none - not divisible by neither 6 nor 9
+#921 - none - not divisible by neither 6 nor 9
+#922 - none - not divisible by neither 6 nor 9
+#923 - none - not divisible by neither 6 nor 9
+#924 - Fizz - divisible by 6 only
+#925 - none - not divisible by neither 6 nor 9
+#926 - none - not divisible by neither 6 nor 9
+#927 - Buzz - divisible by 9 only
+#928 - none - not divisible by neither 6 nor 9
+#929 - none - not divisible by neither 6 nor 9
+#930 - Fizz - divisible by 6 only
+#931 - none - not divisible by neither 6 nor 9
+#932 - none - not divisible by neither 6 nor 9
+#933 - none - not divisible by neither 6 nor 9
+#934 - none - not divisible by neither 6 nor 9
+#935 - none - not divisible by neither 6 nor 9
+#936 - FizzBuzz - divisible by both 6 and 9
+#937 - none - not divisible by neither 6 nor 9
+#938 - none - not divisible by neither 6 nor 9
+#939 - none - not divisible by neither 6 nor 9
+#940 - none - not divisible by neither 6 nor 9
+#941 - none - not divisible by neither 6 nor 9
+#942 - Fizz - divisible by 6 only
+#943 - none - not divisible by neither 6 nor 9
+#944 - none - not divisible by neither 6 nor 9
+#945 - Buzz - divisible by 9 only
+#946 - none - not divisible by neither 6 nor 9
+#947 - none - not divisible by neither 6 nor 9
+#948 - Fizz - divisible by 6 only
+#949 - none - not divisible by neither 6 nor 9
+#950 - none - not divisible by neither 6 nor 9
+#951 - none - not divisible by neither 6 nor 9
+#952 - none - not divisible by neither 6 nor 9
+#953 - none - not divisible by neither 6 nor 9
+#954 - FizzBuzz - divisible by both 6 and 9
+#955 - none - not divisible by neither 6 nor 9
+#956 - none - not divisible by neither 6 nor 9
+#957 - none - not divisible by neither 6 nor 9
+#958 - none - not divisible by neither 6 nor 9
+#959 - none - not divisible by neither 6 nor 9
+#960 - Fizz - divisible by 6 only
+#961 - none - not divisible by neither 6 nor 9
+#962 - none - not divisible by neither 6 nor 9
+#963 - Buzz - divisible by 9 only
+#964 - none - not divisible by neither 6 nor 9
+#965 - none - not divisible by neither 6 nor 9
+#966 - Fizz - divisible by 6 only
+#967 - none - not divisible by neither 6 nor 9
+#968 - none - not divisible by neither 6 nor 9
+#969 - none - not divisible by neither 6 nor 9
+#970 - none - not divisible by neither 6 nor 9
+#971 - none - not divisible by neither 6 nor 9
+#972 - FizzBuzz - divisible by both 6 and 9
+#973 - none - not divisible by neither 6 nor 9
+#974 - none - not divisible by neither 6 nor 9
+#975 - none - not divisible by neither 6 nor 9
+#976 - none - not divisible by neither 6 nor 9
+#977 - none - not divisible by neither 6 nor 9
+#978 - Fizz - divisible by 6 only
+#979 - none - not divisible by neither 6 nor 9
+#980 - none - not divisible by neither 6 nor 9
+#981 - Buzz - divisible by 9 only
+#982 - none - not divisible by neither 6 nor 9
+#983 - none - not divisible by neither 6 nor 9
+#984 - Fizz - divisible by 6 only
+#985 - none - not divisible by neither 6 nor 9
+#986 - none - not divisible by neither 6 nor 9
+#987 - none - not divisible by neither 6 nor 9
+#988 - none - not divisible by neither 6 nor 9
+#989 - none - not divisible by neither 6 nor 9
+#990 - FizzBuzz - divisible by both 6 and 9
+#991 - none - not divisible by neither 6 nor 9
+#992 - none - not divisible by neither 6 nor 9
+#993 - none - not divisible by neither 6 nor 9
+#994 - none - not divisible by neither 6 nor 9
+#995 - none - not divisible by neither 6 nor 9
+#996 - Fizz - divisible by 6 only
+#997 - none - not divisible by neither 6 nor 9
+#998 - none - not divisible by neither 6 nor 9
+#999 - Buzz - divisible by 9 only
+#1000 - none - not divisible by neither 6 nor 9
