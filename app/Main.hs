@@ -52,6 +52,8 @@ main = do
  
   let fizzbuzzedList = fizzBuzz 6 9 list3 
 
-  mapM_ (appendFile "fizzbuzz.txt") (map (++ "\n") fizzbuzzedList)
+  mapM_ putStrLn fizzbuzzedList
+
+  -- mapM_ (appendFile "fizzbuzz.txt") (map (++ "\n") fizzbuzzedList)
 
   putStrLn ("Done!")
