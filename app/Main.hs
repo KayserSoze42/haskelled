@@ -50,10 +50,14 @@ fizzBuzz fizz buzz numbers = map (fizzbuzzable) numbers
 main :: IO ()
 main = do
  
-  let fizzbuzzedList = fizzBuzz 6 9 list3 
+  -- let fizzbuzzedList = fizzBuzz 6 9 list3 
 
-  mapM_ putStrLn fizzbuzzedList
+  -- mapM_ putStrLn fizzbuzzedList
 
   -- mapM_ (appendFile "fizzbuzz.txt") (map (++ "\n") fizzbuzzedList)
+  
+  logFile <- readFile "logs/error.log"
+  
+  mapM_ putStrLn (lines logFile)
 
   putStrLn ("Done!")
