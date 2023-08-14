@@ -1,4 +1,4 @@
-module Mo6 (TimeStamp, MessageType (..), LogMessage (..), MessageBinTree (..), parseSingle, parseSingle, insertAintoB) where
+module Mo6 (TimeStamp, MessageType (..), LogMessage (..), MessageBinTree (..), parseSingle, insertAintoB) where
 
 type TimeStamp = Integer
 
@@ -16,9 +16,9 @@ data MessageBinTree = Leaf
 		    deriving (Show, Eq)
 
 parseSingle :: [[Char]] -> LogMessage
-parseSingle ("E":n:ts:msg:[]) = LogMessage (Error (read n)) (read ts) msg
-parseSingle ("I":ts:msg:[]) = LogMessage Info (read ts) msg
-parseSingle ("W":ts:msg:[]) = LogMessage Warning (read ts) msg
+parseSingle ("E":n:ts:msg) = LogMessage (Error (read n)) (read ts) (unwords msg)
+parseSingle ("I":ts:msg) = LogMessage Info (read ts) (unwords msg)
+parseSingle ("W":ts:msg) = LogMessage Warning (read ts) (unwords msg)
 parseSingle [] = LogMessage (Error 69) 6969 "420d&69f-gg"
 
 -- parseAll :: [Char] -> [LogMessage]

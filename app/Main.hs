@@ -5,7 +5,7 @@ import qualified Mo2 (printWM, toReversedList, doubleEverySecond, sumItUp, isVal
 import qualified Mo3 (hanoi, moveCount, testDrop, truer, falser, ander)
 import qualified Mo4 (javaRecipe, Recipe (..))
 import qualified Mo5 (Complex (..), Tree (..))
-import qualified Mo6 (TimeStamp, MessageType (..), LogMessage (..), MessageBinTree (..), parseSingle,  parseSingle, insertAintoB)
+import qualified Mo6 (TimeStamp, MessageType (..), LogMessage (..), MessageBinTree (..),  parseSingle, insertAintoB)
 
 list :: [Int]
 list = [4, 8, 15, 16, 23, 42]
@@ -65,16 +65,36 @@ main = do
   
   logFile <- readFile "logs/error.log"
 
+  let logLines = lines logFile
+
+  -- mapM_ putStrLn logLines
+
+  let logLinesOfWords = map (words) logLines 
+
+  -- putStrLn (show logLinesOfWords)
+
+  let logLinesOfWordsParsed =  map (Mo6.parseSingle) logLinesOfWords
+
+  putStrLn (show logLinesOfWordsParsed)
+
+  -- mapM_ putStrLn (lines (show logLinesOfWordsParsed))
+
+  putStrLn ("-------------------")
+
   putStrLn ("Beanie 1: " ++ show (beanie1))
 
   putStrLn ("Beanie 2: " ++ show (beanie2))
-  
+ 
+  putStrLn ("-------------------")
+
   putStrLn ("Log parse 1: " ++ show (Mo6.parseSingle (words "E 6 6 420but69d")))
 
   putStrLn ("Log parse 2: " ++ show (Mo6.parseSingle (words "W 6 420but69d")))
 
   putStrLn ("Log parse 3: " ++ show (Mo6.parseSingle (words "I 6 420but69d")))
 
-  -- mapM_ putStrLn logWords
+  putStrLn ("Log parse 4: " ++ show (Mo6.parseSingle (words "I 6 420but69d extended")))
 
+  putStrLn ("-------------------")
+  
   putStrLn ("Done!")
