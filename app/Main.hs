@@ -5,6 +5,7 @@ import qualified Mo2 (printWM, toReversedList, doubleEverySecond, sumItUp, isVal
 import qualified Mo3 (hanoi, moveCount, testDrop, truer, falser, ander)
 import qualified Mo4 (javaRecipe, Recipe (..))
 import qualified Mo5 (Complex (..), Tree (..))
+import qualified Mo6 (parseSingle, TimeStamp, MessageType (..), LogMessage (..))
 
 list :: [Int]
 list = [4, 8, 15, 16, 23, 42]
@@ -58,6 +59,8 @@ main = do
   
   logFile <- readFile "logs/error.log"
   
-  mapM_ putStrLn (lines logFile)
+  putStrLn (show (Mo6.parseSingle (words "E 6 6 420but69d")))
+
+  -- mapM_ putStrLn logWords
 
   putStrLn ("Done!")

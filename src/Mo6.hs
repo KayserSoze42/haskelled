@@ -1,4 +1,4 @@
-module Mo6 (parseSingle, parseAll) where
+module Mo6 (parseSingle, TimeStamp, MessageType (..), LogMessage (..)) where
 
 type TimeStamp = Integer
 
@@ -12,12 +12,15 @@ data LogMessage = LogMessage MessageType TimeStamp [Char]
 		deriving (Show, Eq)
 
 data MessageBinTree = Leaf
-                    | Node MessageType LogMessage MessageTree
+                    | Node MessageType LogMessage MessageBinTree
 
-parseSingle :: [Char] -> LogMessage
--- Single line parsing
+parseSingle :: [[Char]] -> LogMessage
+parseSingle ("E":n:ts:msg:[]) = LogMessage (Error (read n)) (read ts) msg
+parseSingle ("I":ts:msg:[]) = LogMessage Info (read ts) msg
+parseSingle ("W":ts:msg:[]) = LogMessage Warning (read ts) msg
+parseSingle [] = LogMessage (Error 69) 6969 "420d&69f-gg"
 
-parseAll :: [Char] -> [LogMessage]
+-- parseAll :: [Char] -> [LogMessage]
 -- Tuning uncomplete parsing
 
 
