@@ -1,4 +1,14 @@
-module Mo2 (printWM, toReversedList, doubleEverySecond, sumItUp, isValid, isValidCreditCard, CreditCard (..), CCID, CCN) where
+module Mo2 
+         ( printWM
+	 , toReversedList
+	 , doubleEverySecond
+	 , sumItUp
+	 , isValid
+	 , isValidCreditCard
+	 , CreditCard (..)
+	 , CCID
+	 , CCN
+	 ) where
 
 type CCID = Int
 type CCN  = Int

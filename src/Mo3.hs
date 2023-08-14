@@ -1,4 +1,11 @@
-module Mo3 (hanoi, moveCount, testDrop, truer, falser, ander) where
+module Mo3 
+         ( hanoi
+	 , moveCount
+	 , testDrop
+	 , truer
+	 , falser
+	 , ander
+	 ) where
 
 type Peg = [Char]
 type Move = (Peg, Peg)

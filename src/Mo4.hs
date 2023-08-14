@@ -1,4 +1,7 @@
-module Mo4 (javaRecipe, Recipe (..)) where
+module Mo4 
+         ( javaRecipe
+	 , Recipe (..)
+	 ) where
 
 type RecipeName = [Char]
 type Ingredients = [[Char]]

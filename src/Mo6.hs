@@ -1,4 +1,11 @@
-module Mo6 (TimeStamp, MessageType (..), LogMessage (..), MessageBinTree (..), parseSingle, insertAintoB) where
+module Mo6 
+         ( TimeStamp
+	 , MessageType (..)
+	 , LogMessage (..)
+	 , MessageBinTree (..)
+	 , parseSingle
+	 , insertAintoB
+	 ) where
 
 type TimeStamp = Integer
 

@@ -1,11 +1,51 @@
 module Main where
 
-import qualified Mo1 (hailstoneSeq, is6or9, getOpinion, intListLength, intToSum)
-import qualified Mo2 (printWM, toReversedList, doubleEverySecond, sumItUp, isValid, isValidCreditCard, CreditCard (..), CCID, CCN)
-import qualified Mo3 (hanoi, moveCount, testDrop, truer, falser, ander)
-import qualified Mo4 (javaRecipe, Recipe (..))
-import qualified Mo5 (Complex (..), Tree (..))
-import qualified Mo6 (TimeStamp, MessageType (..), LogMessage (..), MessageBinTree (..),  parseSingle, insertAintoB)
+import qualified Mo1 
+                   ( hailstoneSeq
+		   , is6or9
+		   , getOpinion
+		   , intListLength
+		   , intToSum
+		   )
+
+import qualified Mo2 
+                   ( printWM
+		   , toReversedList
+		   , doubleEverySecond
+		   , sumItUp, isValid
+		   , isValidCreditCard
+		   , CreditCard (..)
+		   , CCID
+		   , CCN
+		   )
+
+import qualified Mo3 
+                   ( hanoi
+		   , moveCount
+		   , testDrop
+		   , truer
+		   , falser
+		   , ander
+		   )
+
+import qualified Mo4 
+                   ( javaRecipe
+		   , Recipe (..)
+		   )
+
+import qualified Mo5 
+                   ( Complex (..)
+		   , Tree (..)
+		   )
+
+import qualified Mo6 
+                   ( TimeStamp
+		   , MessageType (..)
+		   , LogMessage (..)
+		   , MessageBinTree (..)
+		   ,  parseSingle
+		   , insertAintoB
+		   )
 
 list :: [Int]
 list = [4, 8, 15, 16, 23, 42]
@@ -73,7 +113,9 @@ main = do
 
   -- putStrLn (show logLinesOfWords)
 
-  let logLinesOfWordsParsed =  map (Mo6.parseSingle) logLinesOfWords
+  let logLinesOfWordsParsed = map (Mo6.parseSingle) logLinesOfWords
+
+  -- mapM_ (appendFile "logs/outlog.log") logLinesOfWordsParsed
 
   mapM_ putStrLn (map (show) logLinesOfWordsParsed)
 

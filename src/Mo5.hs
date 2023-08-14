@@ -1,4 +1,7 @@
-module Mo5 (Complex (..), Tree (..)) where
+module Mo5 
+         ( Complex (..)
+	 , Tree (..)
+	 ) where
 
 data Complex a = Cmplx a (Complex a)
                | Ende

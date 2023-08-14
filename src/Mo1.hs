@@ -1,4 +1,10 @@
-module Mo1 (hailstoneSeq, is6or9, getOpinion, intListLength, intToSum) where
+module Mo1 
+         ( hailstoneSeq
+	 , is6or9
+	 , getOpinion
+	 , intListLength
+	 , intToSum
+	 ) where
 
 hailstone :: Int -> Int
 hailstone n 
