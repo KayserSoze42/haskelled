@@ -5,7 +5,7 @@ import qualified Mo2 (printWM, toReversedList, doubleEverySecond, sumItUp, isVal
 import qualified Mo3 (hanoi, moveCount, testDrop, truer, falser, ander)
 import qualified Mo4 (javaRecipe, Recipe (..))
 import qualified Mo5 (Complex (..), Tree (..))
-import qualified Mo6 (parseSingle, TimeStamp, MessageType (..), LogMessage (..))
+import qualified Mo6 (TimeStamp, MessageType (..), LogMessage (..), MessageBinTree (..), parseSingle,  parseSingle, insertAintoB)
 
 list :: [Int]
 list = [4, 8, 15, 16, 23, 42]
@@ -48,6 +48,12 @@ fizzBuzz fizz buzz numbers = map (fizzbuzzable) numbers
 					where fizzable number = (number `mod` fizz) == 0
 					      buzzable number = (number `mod` buzz) == 0
 
+beanie1 :: Mo6.MessageBinTree
+beanie1 = Mo6.Leaf
+
+beanie2 :: Mo6.MessageBinTree
+beanie2 = Mo6.Node Mo6.Leaf (Mo6.LogMessage Mo6.Info 69 "69-fo-sho") Mo6.Leaf
+
 main :: IO ()
 main = do
  
@@ -58,8 +64,16 @@ main = do
   -- mapM_ (appendFile "fizzbuzz.txt") (map (++ "\n") fizzbuzzedList)
   
   logFile <- readFile "logs/error.log"
+
+  putStrLn ("Beanie 1: " ++ show (beanie1))
+
+  putStrLn ("Beanie 2: " ++ show (beanie2))
   
-  putStrLn (show (Mo6.parseSingle (words "E 6 6 420but69d")))
+  putStrLn ("Log parse 1: " ++ show (Mo6.parseSingle (words "E 6 6 420but69d")))
+
+  putStrLn ("Log parse 2: " ++ show (Mo6.parseSingle (words "W 6 420but69d")))
+
+  putStrLn ("Log parse 3: " ++ show (Mo6.parseSingle (words "I 6 420but69d")))
 
   -- mapM_ putStrLn logWords
 
