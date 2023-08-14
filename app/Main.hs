@@ -75,7 +75,7 @@ main = do
 
   let logLinesOfWordsParsed =  map (Mo6.parseSingle) logLinesOfWords
 
-  putStrLn (show logLinesOfWordsParsed)
+  mapM_ putStrLn (map (show) logLinesOfWordsParsed)
 
   -- mapM_ putStrLn (lines (show logLinesOfWordsParsed))
 
