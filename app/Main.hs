@@ -98,50 +98,10 @@ beanie2 = Mo6.Node Mo6.Leaf (Mo6.LogMessage Mo6.Info 69 "69-fo-sho") Mo6.Leaf
 main :: IO ()
 main = do
  
-  -- let fizzbuzzedList = fizzBuzz 6 9 list3 
-
-  -- mapM_ putStrLn fizzbuzzedList
-
-  -- mapM_ (appendFile "fizzbuzz.txt") (map (++ "\n") fizzbuzzedList)
-
-  -- let logLines = lines logFile
-
-  -- mapM_ putStrLn logLines
-
-  -- let logLinesOfWords = map (words) logLines 
-
-  -- putStrLn (show logLinesOfWords)
-
-  -- let logLinesOfWordsParsed = map (Mo6.parseSingle) logLinesOfWords
-
-  -- mapM_ (appendFile "logs/outlog.log") logLinesOfWordsParsed
-
-  -- mapM_ putStrLn (map (show) logLinesOfWordsParsed)
-
   logFile <- readFile "logs/error.log"
-
-  -- mapM_ putStrLn (map (show) (Mo6.parseAll logFile))
 
   let parsedFile = Mo6.parseAll logFile
 
-  putStrLn ("-------------------")
+  mapM_ putStrLn (lines logFile)
 
-  putStrLn ("Beanie 1: " ++ show (beanie1))
-
-  putStrLn ("Beanie 2: " ++ show (beanie2))
- 
-  putStrLn ("-------------------")
-
-  putStrLn ("Log parse 1: " ++ show (Mo6.parseSingle (words "E 6 6 420but69d")))
-
-  putStrLn ("Log parse 2: " ++ show (Mo6.parseSingle (words "W 6 420but69d")))
-
-  putStrLn ("Log parse 3: " ++ show (Mo6.parseSingle (words "I 6 420but69d")))
-
-  putStrLn ("Log parse 4: " ++ show (Mo6.parseSingle (words "I 6 420but69d extended")))
-
-  putStrLn ("-------------------")
-
-  putStrLn ("Beanie 1 after insert: " ++ show (Mo6.insert (Mo6.LogMessage Mo6.Info 69 "69-4-shaw-20 ..yee") beanie1))
-  
   putStrLn ("Done!")
