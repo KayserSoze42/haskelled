@@ -43,7 +43,8 @@ import qualified Mo6
 		   , MessageType (..)
 		   , LogMessage (..)
 		   , MessageBinTree (..)
-		   ,  parseSingle
+		   , parseSingle
+		   , parseAll
 		   , insertAintoB
 		   )
 
@@ -102,24 +103,24 @@ main = do
   -- mapM_ putStrLn fizzbuzzedList
 
   -- mapM_ (appendFile "fizzbuzz.txt") (map (++ "\n") fizzbuzzedList)
-  
-  logFile <- readFile "logs/error.log"
 
-  let logLines = lines logFile
+  -- let logLines = lines logFile
 
   -- mapM_ putStrLn logLines
 
-  let logLinesOfWords = map (words) logLines 
+  -- let logLinesOfWords = map (words) logLines 
 
   -- putStrLn (show logLinesOfWords)
 
-  let logLinesOfWordsParsed = map (Mo6.parseSingle) logLinesOfWords
+  -- let logLinesOfWordsParsed = map (Mo6.parseSingle) logLinesOfWords
 
   -- mapM_ (appendFile "logs/outlog.log") logLinesOfWordsParsed
 
-  mapM_ putStrLn (map (show) logLinesOfWordsParsed)
+  -- mapM_ putStrLn (map (show) logLinesOfWordsParsed)
 
-  -- mapM_ putStrLn (lines (show logLinesOfWordsParsed))
+  logFile <- readFile "logs/error.log"
+
+  mapM_ putStrLn (map (show) (Mo6.parseAll logFile))
 
   putStrLn ("-------------------")
 
