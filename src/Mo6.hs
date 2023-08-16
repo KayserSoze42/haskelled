@@ -5,7 +5,7 @@ module Mo6
 	 , MessageBinTree (..)
 	 , parseSingle
 	 , parseAll
-	 , insertAintoB
+	 , insert
 	 ) where
 
 type TimeStamp = Integer
@@ -32,8 +32,13 @@ parseSingle [] = LogMessage (Error 69) 6969 "420d&69f-gg"
 parseAll :: [Char] -> [LogMessage]
 parseAll logfile = map (parseSingle) (map (words) (lines logfile))
 
-insertAintoB :: LogMessage -> MessageBinTree -> MessageBinTree
-insertAintoB (Unknown x) tree = tree
+insert :: LogMessage -> MessageBinTree -> MessageBinTree
+insert logMessage Leaf = Node Leaf logMessage Leaf 
+insert (Unknown x) tree = tree
+insert (LogMessage msgt ts msg) (Node left (LogMessage nmsgt nts nmsg) right) 
+     | ts < nts  = insert (LogMessage msgt ts msg) left
+     | otherwise = insert (LogMessage msgt ts msg) right
+ 
 
 -- buildTree :: [LogMessage] -> MessageBinTree
 

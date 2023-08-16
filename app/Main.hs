@@ -45,7 +45,7 @@ import qualified Mo6
 		   , MessageBinTree (..)
 		   , parseSingle
 		   , parseAll
-		   , insertAintoB
+		   , insert
 		   )
 
 list :: [Int]
@@ -120,7 +120,9 @@ main = do
 
   logFile <- readFile "logs/error.log"
 
-  mapM_ putStrLn (map (show) (Mo6.parseAll logFile))
+  -- mapM_ putStrLn (map (show) (Mo6.parseAll logFile))
+
+  let parsedFile = Mo6.parseAll logFile
 
   putStrLn ("-------------------")
 
@@ -139,5 +141,7 @@ main = do
   putStrLn ("Log parse 4: " ++ show (Mo6.parseSingle (words "I 6 420but69d extended")))
 
   putStrLn ("-------------------")
+
+  putStrLn ("Beanie 1 after insert: " ++ show (Mo6.insert (Mo6.LogMessage Mo6.Info 69 "69-4-shaw-20 ..yee") beanie1))
   
   putStrLn ("Done!")
