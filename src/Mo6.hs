@@ -6,6 +6,7 @@ module Mo6
 	 , parseSingle
 	 , parseAll
 	 , insert
+	 -- , buildTree
 	 ) where
 
 type TimeStamp = Integer
@@ -33,14 +34,15 @@ parseAll :: [Char] -> [LogMessage]
 parseAll logfile = map (parseSingle) (map (words) (lines logfile))
 
 insert :: LogMessage -> MessageBinTree -> MessageBinTree
-insert logMessage Leaf = Node Leaf logMessage Leaf 
-insert (Unknown x) tree = tree
+insert logMessage Leaf  = Node Leaf logMessage Leaf 
+insert (Unknown _) tree = tree
 insert (LogMessage msgt ts msg) (Node left (LogMessage nmsgt nts nmsg) right) 
-     | ts < nts  = insert (LogMessage msgt ts msg) left
-     | otherwise = insert (LogMessage msgt ts msg) right
+     | ts <= nts        = insert (LogMessage msgt ts msg) left
+     | otherwise        = insert (LogMessage msgt ts msg) right
  
 
 -- buildTree :: [LogMessage] -> MessageBinTree
+-- buildTreeFiddy 
 
 -- inDisOrder :: MessageBinTree -> [LogMessage]
 

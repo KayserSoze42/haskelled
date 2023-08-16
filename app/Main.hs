@@ -46,6 +46,7 @@ import qualified Mo6
 		   , parseSingle
 		   , parseAll
 		   , insert
+		   -- , buildTree
 		   )
 
 list :: [Int]
@@ -102,6 +103,10 @@ main = do
 
   let parsedFile = Mo6.parseAll logFile
 
-  mapM_ putStrLn (lines logFile)
+  mapM_ putStrLn (lines (show parsedFile))
+  
+  -- let beanie3 = Mo6.buildTree parsedFile
+
+  -- putStrLn (show beanie3)
 
   putStrLn ("Done!")
