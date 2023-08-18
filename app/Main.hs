@@ -45,7 +45,7 @@ import qualified Mo6
 		   , MessageBinTree (..)
 		   , parseSingle
 		   , parseAll
-		   , insert
+		   -- , insert
 		   -- , buildTree
 		   )
 
@@ -103,10 +103,6 @@ main = do
 
   let parsedFile = Mo6.parseAll logFile
 
-  mapM_ putStrLn (lines (show parsedFile))
+  -- mapM_ putStrLn (lines (show parsedFile)) 
   
-  -- let beanie3 = Mo6.buildTree parsedFile
-
-  -- putStrLn (show beanie3)
-
   putStrLn ("Done!")
