@@ -97,6 +97,11 @@ beanie1 = Mo6.Empty
 beanie2 :: Mo6.MessageBinTree
 beanie2 = Mo6.Leaf (Mo6.LogMessage Mo6.Info 69 "69-fo-sho")
 
+listToChars :: [[Char]] -> [Char]
+listToChars []     = []
+listToChars (x:[]) = (show x) ++ (listToChars [])
+listToChars (x:xs) = (show x) ++ (listToChars xs)
+
 main :: IO ()
 main = do
  
@@ -108,9 +113,13 @@ main = do
 
   let disorderedBeanie = Mo6.inDisOrder beaniedFile
 
-  let pureInfo = map (show) disorderedBeanie
+  let pureInfo = map (++ "\n") (map (show) disorderedBeanie)
 
-  mapM_ putStrLn pureInfo
+  let charredInfo = listToChars pureInfo
+
+  -- mapM_ putStrLn pureInfo
+  
+  appendFile "logs/outcall.log" charredInfo
 
   putStrLn ("----------------------")
 

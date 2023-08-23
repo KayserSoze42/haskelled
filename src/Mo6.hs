@@ -56,4 +56,4 @@ inDisOrder (Leaf lm)              = [lm]
 inDisOrder (Node left curr right) = inDisOrder left ++ [curr] ++ inDisOrder right
 
 
--- whatzUp :: [LogMessage] -> [[Char]]
+-- whatzUp :: [LogMessage] -> [[Char]] 
