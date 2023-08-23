@@ -46,7 +46,7 @@ import qualified Mo6
 		   , parseSingle
 		   , parseAll
 		   , insert
-		   -- , buildTree
+		   , buildTree
 		   )
 
 list :: [Int]
@@ -99,23 +99,41 @@ beanie2 = Mo6.Leaf (Mo6.LogMessage Mo6.Info 69 "69-fo-sho")
 main :: IO ()
 main = do
  
-  -- logFile <- readFile "logs/error.log"
+  logFile <- readFile "logs/error.log"
 
-  -- let parsedFile = Mo6.parseAll logFile
+  let parsedFile = Mo6.parseAll logFile
 
   -- putStrLn (show parsedFile)
 
-  putStrLn (show beanie1)
+  -- putStrLn (show beanie1)
 
-  putStrLn ("----------------------")
+  -- putStrLn ("----------------------")
 
-  putStrLn (show beanie2)
+  -- putStrLn (show beanie2)
 
-  putStrLn ("----------------------")
+  -- putStrLn ("----------------------")
 
-  let beanie42 = Mo6.insert (Mo6.LogMessage Mo6.Info 69 "Once again we go again... part two") beanie2  
+  -- let beanie42 = Mo6.insert (Mo6.LogMessage Mo6.Info 68 "Once again we go again... part two") beanie2  
 
-  putStrLn (show beanie42)
+  -- putStrLn (show beanie42)
+
+  -- putStrLn ("----------------------")
+  
+  -- let beanie43 = Mo6.insert (Mo6.LogMessage Mo6.Info 70 "Once again we go again... part two") beanie42  
+
+  -- putStrLn (show beanie43)
+
+  -- putStrLn ("----------------------")
+
+  -- let beanie44 = Mo6.insert (Mo6.LogMessage Mo6.Info 71 "Once again we go again... part two") beanie43  
+
+  -- putStrLn (show beanie44)
+
+  -- putStrLn ("----------------------")
+
+  let beaniedFile = Mo6.buildTree parsedFile
+
+  putStrLn (show beaniedFile)
 
   putStrLn ("----------------------")
 

@@ -6,7 +6,7 @@ module Mo6
 	 , parseSingle
 	 , parseAll
 	 , insert
-	 -- , buildTree
+	 , buildTree
 	 ) where
 
 type TimeStamp = Integer
@@ -42,8 +42,12 @@ insert (LogMessage msgt ts msg) (Leaf (LogMessage nmsgt nts nmsg))
 insert (LogMessage msgt ts msg) (Node left (LogMessage nmsgt nts nmsg) right)
                                                                    | ts < nts  = Node (insert (LogMessage msgt ts msg) left) (LogMessage nmsgt nts nmsg) right
 								   | ts > nts  = Node left (LogMessage nmsgt nts nmsg) (insert (LogMessage msgt ts msg) right)
+								   | otherwise = Node left (LogMessage nmsgt nts nmsg) right
 
--- buildTree :: [LogMessage] -> MessageBinTree
+buildTree :: [LogMessage] -> MessageBinTree
+buildTree []     = Empty
+buildTree (x:[]) = Leaf x
+buildTree (x:xs) = insert x (buildTree xs)
 
 -- inDisOrder :: MessageBinTree -> [LogMessage]
 
