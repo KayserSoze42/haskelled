@@ -45,7 +45,7 @@ import qualified Mo6
 		   , MessageBinTree (..)
 		   , parseSingle
 		   , parseAll
-		   -- , insert
+		   , insert
 		   -- , buildTree
 		   )
 
@@ -91,18 +91,32 @@ fizzBuzz fizz buzz numbers = map (fizzbuzzable) numbers
 					      buzzable number = (number `mod` buzz) == 0
 
 beanie1 :: Mo6.MessageBinTree
-beanie1 = Mo6.Leaf
+beanie1 = Mo6.Empty
 
 beanie2 :: Mo6.MessageBinTree
-beanie2 = Mo6.Node Mo6.Leaf (Mo6.LogMessage Mo6.Info 69 "69-fo-sho") Mo6.Leaf
+beanie2 = Mo6.Leaf (Mo6.LogMessage Mo6.Info 69 "69-fo-sho")
 
 main :: IO ()
 main = do
  
-  logFile <- readFile "logs/error.log"
+  -- logFile <- readFile "logs/error.log"
 
-  let parsedFile = Mo6.parseAll logFile
+  -- let parsedFile = Mo6.parseAll logFile
 
-  -- mapM_ putStrLn (lines (show parsedFile)) 
-  
+  -- putStrLn (show parsedFile)
+
+  putStrLn (show beanie1)
+
+  putStrLn ("----------------------")
+
+  putStrLn (show beanie2)
+
+  putStrLn ("----------------------")
+
+  let beanie42 = Mo6.insert (Mo6.LogMessage Mo6.Info 69 "Once again we go again... part two") beanie2  
+
+  putStrLn (show beanie42)
+
+  putStrLn ("----------------------")
+
   putStrLn ("Done!")
