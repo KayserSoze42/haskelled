@@ -37,11 +37,11 @@ parseAll logfile = map (parseSingle) (map (words) (lines logfile))
 insert :: LogMessage -> MessageBinTree -> MessageBinTree
 insert lm Empty                                                                = Leaf lm
 insert (LogMessage msgt ts msg) (Leaf (LogMessage nmsgt nts nmsg))
-                                                                   | ts < nts  = Node (LogMessage msgt ts msg) (LogMessage nmsgt nts nmsg) Empty
-								   | otherwise = Node (LogMessage nmsgt nts nmsg) (LogMessage msgt ts msg) Empty
+                                                                   | ts < nts  = Node (Leaf (LogMessage msgt ts msg)) (LogMessage nmsgt nts nmsg) Empty
+								   | otherwise = Node (Leaf (LogMessage nmsgt nts nmsg)) (LogMessage msgt ts msg) Empty
 insert (LogMessage msgt ts msg) (Node left (LogMessage nmsgt nts nmsg) right)
-                                                                   | ts < nts  = Node (LogMessage msgt ts msg) (LogMessage nmsgt nts nmsg) right
-								   | ts > nts  = Node left (LogMessage nmsgt nts nmsg) (LogMessage msgt ts msg)
+                                                                   | ts < nts  = Node (insert (LogMessage msgt ts msg) left) (LogMessage nmsgt nts nmsg) right
+								   | ts > nts  = Node left (LogMessage nmsgt nts nmsg) (insert (LogMessage msgt ts msg) right)
 
 -- buildTree :: [LogMessage] -> MessageBinTree
 
