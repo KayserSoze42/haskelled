@@ -50,6 +50,10 @@ import qualified Mo6
 		   , inDisOrder
 		   )
 
+import qualified Mo7
+                   ( absDeez
+		   )
+
 list :: [Int]
 list = [4, 8, 15, 16, 23, 42]
 
@@ -107,19 +111,25 @@ main = do
  
   logFile <- readFile "logs/error.log"
 
-  let parsedFile = Mo6.parseAll logFile
+  -- let parsedFile = Mo6.parseAll logFile
 
-  let beaniedFile = Mo6.buildTree parsedFile
+  -- let beaniedFile = Mo6.buildTree parsedFile
 
-  let disorderedBeanie = Mo6.inDisOrder beaniedFile
+  -- let disorderedBeanie = Mo6.inDisOrder beaniedFile
 
-  let pureInfo = map (++ "\n") (map (show) disorderedBeanie)
+  -- let pureInfo = map (++ "\r\n") (map (show) disorderedBeanie)
 
-  let charredInfo = listToChars pureInfo
+  -- let charredInfo = listToChars pureInfo
 
   -- mapM_ putStrLn pureInfo
   
-  appendFile "logs/outcall.log" charredInfo
+  -- appendFile "logs/outcall.log" charredInfo
+  
+  let minList = [-4,-8,-15,-16,-23,-42]
+
+  let nonMinList = Mo7.absDeez minList
+
+  putStrLn (show nonMinList)
 
   putStrLn ("----------------------")
 

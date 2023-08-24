@@ -29,6 +29,7 @@ library
       Mo4
       Mo5
       Mo6
+      Mo7
 
     -- Modules included in this library but not exported.
     -- other-modules:
