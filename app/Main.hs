@@ -1,5 +1,7 @@
 module Main where
 
+import Data.Time.Clock (getCurrentTime, diffUTCTime)
+
 import qualified Mo1 
                    ( hailstoneSeq
 		   , is6or9
@@ -111,6 +113,8 @@ listToChars (x:xs) = (show x) ++ (listToChars xs)
 main :: IO ()
 main = do
  
+  executionStart <- getCurrentTime
+
   logFile <- readFile "logs/error.log"
 
   let parsedFile = Mo6.parseAll logFile
@@ -129,7 +133,9 @@ main = do
   
   putStr (".\n")
 
-  putStrLn ("Finished ordering beanies!\n")
+  orderingEnd <- getCurrentTime
+
+  putStrLn ("Finished ordering beanies!\nTime passed: " ++ (show (diffUTCTime orderingEnd executionStart)))
 
   -- hic sunt dracones...
 
@@ -145,7 +151,9 @@ main = do
   
   putStr (".\n")
 
-  putStrLn ("Finished revealing beanies!\n")
+  revealingEnd <- getCurrentTime
+
+  putStrLn ("Finished revealing beanies!\nTime passed, cca again: " ++ (show (diffUTCTime revealingEnd orderingEnd)))
 
   -- ... hic!
 
@@ -159,7 +167,9 @@ main = do
 
   -- mapM_ putStrLn pureInfo
 
-  putStrLn ("Oh boi...\n")
+  putStrLn ("Oh boi...")
+
+  disorderStart <- getCurrentTime
   
   mapM_ (appendFile "logs/discall.log") pureDisorderedInfo
 
@@ -172,6 +182,12 @@ main = do
   mapM_ (appendFile "logs/postcall.log") purePostorderedInfo
 
   putStr (".\n")
+
+  disorderExecutionEnd <- getCurrentTime
+
+  putStrLn ("Disordered time: " ++ (show (diffUTCTime disorderExecutionEnd disorderStart)))
+
+  putStrLn ("Total, run time: " ++ (show (diffUTCTime disorderExecutionEnd executionStart)))
   
   -- let minList = [-4,-8,-15,-16,-23,-42]
 
