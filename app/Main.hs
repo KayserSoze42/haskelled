@@ -117,23 +117,61 @@ main = do
 
   let beaniedFile = Mo6.buildTree parsedFile
 
-  -- let disorderedBeanie = Mo6.inDisOrder beaniedFile
+  let disorderedBeanie = Mo6.inDisOrder beaniedFile
+  
+  putStr (".")
 
-  -- let reorderedBeanie = Mo6.inReOrder beaniedFile
+  let reorderedBeanie = Mo6.inReOrder beaniedFile
+  
+  putStr (".")
 
   let postorderedBeanie = Mo6.inPostOrder beaniedFile
-
-  -- let pureInfo = map (show) disorderedBeanie
-
-  -- let pureInfo = map (show) reorderedBeanie
-
-  let pureInfo = map (show) postorderedBeanie
-
-  let charredInfo = listToChars pureInfo
-
-  mapM_ putStrLn pureInfo
   
-  -- appendFile "logs/outcall.log" charredInfo
+  putStr (".\n")
+
+  putStrLn ("Finished ordering beanies!\n")
+
+  -- hic sunt dracones...
+
+  let pureDisorderedInfo = map (show) disorderedBeanie
+
+  putStr (".")
+
+  let pureReorderedInfo = map (show) reorderedBeanie
+  
+  putStr (".")
+
+  let purePostorderedInfo = map (show) postorderedBeanie
+  
+  putStr (".\n")
+
+  putStrLn ("Finished revealing beanies!\n")
+
+  -- ... hic!
+
+  -- let charredDisInfo = listToChars pureDisorderedInfo
+
+  -- let charredReInfo = listToChars pureReorderedInfo
+
+  -- let charredPostInfo = listToChars purePostorderedInfo
+
+  -- and ta-da!
+
+  -- mapM_ putStrLn pureInfo
+
+  putStrLn ("Oh boi...\n")
+  
+  mapM_ (appendFile "logs/discall.log") pureDisorderedInfo
+
+  putStr (".")
+
+  mapM_ (appendFile "logs/recall.log") pureReorderedInfo
+
+  putStr (".")
+
+  mapM_ (appendFile "logs/postcall.log") purePostorderedInfo
+
+  putStr (".\n")
   
   -- let minList = [-4,-8,-15,-16,-23,-42]
 
@@ -143,4 +181,4 @@ main = do
 
   putStrLn ("----------------------")
 
-  putStrLn ("Done!")
+  putStrLn ("That was a clsoe one.. \njob (somewhat) done!")
