@@ -184,15 +184,15 @@ main = do
 
   -- putStr (".\n")
  
-  mapM_ (appendFile "logs/outs/discall.log") (map (show) charredDisInfo)
+  appendFile "logs/outs/discall.log" (show charredDisInfo)
 
   putStr (".")
 
-  mapM_ (appendFile "logs/outs/recall.log") (map (show) charredReInfo)
+  appendFile "logs/outs/recall.log" (show charredReInfo)
 
   putStr (".")
 
-  mapM_ (appendFile "logs/outs/postcall.log") (map (show) charredPostInfo)
+  appendFile "logs/outs/postcall.log" (show charredPostInfo)
 
   putStr (".\n")
 
