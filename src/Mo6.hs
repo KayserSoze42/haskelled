@@ -8,6 +8,8 @@ module Mo6
 	 , insert
 	 , buildTree
 	 , inDisOrder
+	 , inPostOrder
+	 , inReOrder
 	 ) where
 
 type TimeStamp = Integer
@@ -55,5 +57,14 @@ inDisOrder (Empty)                = []
 inDisOrder (Leaf lm)              = [lm]
 inDisOrder (Node left curr right) = inDisOrder left ++ [curr] ++ inDisOrder right
 
+inReOrder :: MessageBinTree -> [LogMessage]
+inReOrder (Empty)                 = []
+inReOrder (Leaf lm)               = [lm]
+inReOrder (Node left curr right)  = [curr] ++ inReOrder left ++ inReOrder right
+
+inPostOrder :: MessageBinTree -> [LogMessage]
+inPostOrder (Empty)                = []
+inPostOrder (Leaf lm)              = [lm]
+inPostOrder (Node left curr right) = inPostOrder left ++ inPostOrder right ++ [curr]
 
 -- whatzUp :: [LogMessage] -> [[Char]] 

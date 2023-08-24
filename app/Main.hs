@@ -48,6 +48,8 @@ import qualified Mo6
 		   , insert
 		   , buildTree
 		   , inDisOrder
+		   , inReOrder
+		   , inPostOrder
 		   )
 
 import qualified Mo7
@@ -111,25 +113,33 @@ main = do
  
   logFile <- readFile "logs/error.log"
 
-  -- let parsedFile = Mo6.parseAll logFile
+  let parsedFile = Mo6.parseAll logFile
 
-  -- let beaniedFile = Mo6.buildTree parsedFile
+  let beaniedFile = Mo6.buildTree parsedFile
 
   -- let disorderedBeanie = Mo6.inDisOrder beaniedFile
 
-  -- let pureInfo = map (++ "\r\n") (map (show) disorderedBeanie)
+  -- let reorderedBeanie = Mo6.inReOrder beaniedFile
 
-  -- let charredInfo = listToChars pureInfo
+  let postorderedBeanie = Mo6.inPostOrder beaniedFile
 
-  -- mapM_ putStrLn pureInfo
+  -- let pureInfo = map (show) disorderedBeanie
+
+  -- let pureInfo = map (show) reorderedBeanie
+
+  let pureInfo = map (show) postorderedBeanie
+
+  let charredInfo = listToChars pureInfo
+
+  mapM_ putStrLn pureInfo
   
   -- appendFile "logs/outcall.log" charredInfo
   
-  let minList = [-4,-8,-15,-16,-23,-42]
+  -- let minList = [-4,-8,-15,-16,-23,-42]
 
-  let nonMinList = Mo7.absDeez minList
+  -- let nonMinList = Mo7.absDeez minList
 
-  putStrLn (show nonMinList)
+  -- putStrLn (show nonMinList)
 
   putStrLn ("----------------------")
 
