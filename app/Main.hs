@@ -56,6 +56,7 @@ import qualified Mo6
 
 import qualified Mo7
                    ( absDeez
+		   , getStampd
 		   )
 
 list :: [Int]
@@ -115,45 +116,45 @@ main = do
  
   executionStart <- getCurrentTime
 
-  logFile <- readFile "logs/error.log"
+  -- logFile <- readFile "logs/error.log"
 
-  let parsedFile = Mo6.parseAll logFile
+  -- let parsedFile = Mo6.parseAll logFile
 
-  let beaniedFile = Mo6.buildTree parsedFile
+  -- let beaniedFile = Mo6.buildTree parsedFile
 
-  let disorderedBeanie = Mo6.inDisOrder beaniedFile
+  -- let disorderedBeanie = Mo6.inDisOrder beaniedFile
   
-  putStr (".")
+  -- putStr (".")
 
-  let reorderedBeanie = Mo6.inReOrder beaniedFile
+  -- let reorderedBeanie = Mo6.inReOrder beaniedFile
   
-  putStr (".")
+  -- putStr (".")
 
-  let postorderedBeanie = Mo6.inPostOrder beaniedFile
+  -- let postorderedBeanie = Mo6.inPostOrder beaniedFile
   
-  putStr (".\n")
+  -- putStr (".\n")
 
-  orderingEnd <- getCurrentTime
+  -- orderingEnd <- getCurrentTime
 
-  putStrLn ("Finished ordering beanies!\nTime passed: " ++ (show (diffUTCTime orderingEnd executionStart)))
+  -- putStrLn ("Finished ordering beanies!\nTime passed: " ++ (show (diffUTCTime orderingEnd executionStart)))
 
   -- hic sunt dracones...
 
-  let pureDisorderedInfo = map (show) disorderedBeanie
+  -- let pureDisorderedInfo = map (show) disorderedBeanie
 
-  putStr (".")
+  -- putStr (".")
 
-  let pureReorderedInfo = map (show) reorderedBeanie
+  -- let pureReorderedInfo = map (show) reorderedBeanie
   
-  putStr (".")
+  -- putStr (".")
 
-  let purePostorderedInfo = map (show) postorderedBeanie
+  -- let purePostorderedInfo = map (show) postorderedBeanie
   
-  putStr (".\n")
+  -- putStr (".\n")
 
-  revealingEnd <- getCurrentTime
+  -- revealingEnd <- getCurrentTime
 
-  putStrLn ("Finished revealing beanies!\nTime passed, cca again: " ++ (show (diffUTCTime revealingEnd orderingEnd)))
+  -- putStrLn ("Finished revealing beanies!\nTime passed, cca again: " ++ (show (diffUTCTime revealingEnd orderingEnd)))
 
   -- ... hic!
 
@@ -167,21 +168,21 @@ main = do
 
   -- mapM_ putStrLn pureInfo
 
-  putStrLn ("Oh boi...")
+  -- putStrLn ("Oh boi...")
 
   disorderStart <- getCurrentTime
   
-  mapM_ (appendFile "logs/discall.log") pureDisorderedInfo
+  -- mapM_ (appendFile "logs/discall.log") pureDisorderedInfo
 
-  putStr (".")
+  -- putStr (".")
 
-  mapM_ (appendFile "logs/recall.log") pureReorderedInfo
+  -- mapM_ (appendFile "logs/recall.log") pureReorderedInfo
 
-  putStr (".")
+  -- putStr (".")
 
-  mapM_ (appendFile "logs/postcall.log") purePostorderedInfo
+  -- mapM_ (appendFile "logs/postcall.log") purePostorderedInfo
 
-  putStr (".\n")
+  -- putStr (".\n")
 
   disorderExecutionEnd <- getCurrentTime
 
@@ -191,10 +192,16 @@ main = do
   
   -- let minList = [-4,-8,-15,-16,-23,-42]
 
+  let funnyList = ["not", "so", "funny", "rly", "...", "dotdotdot"]
+
+  let stampedNotFunny = Mo7.getStampd (show disorderExecutionEnd) funnyList
+
+  mapM_ putStrLn stampedNotFunny
+
   -- let nonMinList = Mo7.absDeez minList
 
   -- putStrLn (show nonMinList)
 
   putStrLn ("----------------------")
 
-  putStrLn ("That was a clsoe one.. \njob (somewhat) done!")
+  putStrLn ("That was a close one.. \njob (somewhat) done!")
