@@ -158,11 +158,11 @@ main = do
 
   -- ... hic!
 
-  let charredDisInfo = listToChars (map (++ "\n") pureDisorderedInfo)
+  let charredDisInfo = listToChars pureDisorderedInfo
 
-  let charredReInfo = listToChars (map (++ "\n") pureReorderedInfo)
+  let charredReInfo = listToChars pureReorderedInfo
 
-  let charredPostInfo = listToChars (map (++ "\n") purePostorderedInfo)
+  let charredPostInfo = listToChars purePostorderedInfo
 
   -- and ta-da!
 
@@ -184,15 +184,15 @@ main = do
 
   -- putStr (".\n")
  
-  appendFile "logs/outs/discall.log" (show charredDisInfo)
+  appendFile "logs/outs/discall.log" charredDisInfo
 
   putStr (".")
 
-  appendFile "logs/outs/recall.log" (show charredReInfo)
+  appendFile "logs/outs/recall.log" charredReInfo
 
   putStr (".")
 
-  appendFile "logs/outs/postcall.log" (show charredPostInfo)
+  appendFile "logs/outs/postcall.log" charredPostInfo
 
   putStr (".\n")
 
