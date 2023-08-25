@@ -33,13 +33,16 @@ data Pile t = E | C t (Pile t)
 getDeez :: Vic -> Vic -> Float
 getDeez (Vic xa ya za) (Vic xb yb zb) = sqrt(((xb - xa)^^2) + ((yb - ya)^^2) + ((zb - za)^^2))
 
+readFloat :: [Char] -> Float
+readFloat chars = read chars
+
 parseDeez :: [[Char]] -> CiVix
-parseDeez (label:id:x:y:z)
-  |  label == "alice"     = CiVix "alice" id (Vic x y z)
-  |  label == "hatter"    = CiVix "hatter" id (Vic x y z)
-  |  label == "mallymkun" = CiVix "mallymkun" id (Vic x y z)
-  |  otherwise            = CiVix "caterpillar" id (Vic x y z)
-parseDeez [] = CiVix "jabberwacky" 69 (Vic 4 2 0)
+parseDeez (label:id:x:y:z:[])
+  |  label == "a" = CiVix "alice" (read id) (Vic (readFloat x) (readFloat y) (readFloat z))
+  |  label == "h" = CiVix "hatter" (read id) (Vic (readFloat x) (readFloat y) (readFloat z))
+  |  label == "m" = CiVix "mallymkun" (read id) (Vic (readFloat x) (readFloat y) (readFloat z))
+  |  otherwise    = CiVix "caterpillar" (read id) (Vic (readFloat x) (readFloat y) (readFloat z))
+parseDeez []      = CiVix "jabberwacky" 69 (Vic 4 2 0)
 
 parseAllDeez :: [Char] -> [CiVix]
 parseAllDeez madfile = map (parseDeez) (map (words) (lines madfile))
@@ -58,6 +61,23 @@ buildDeez :: [CiVix] -> VixBinTree
 buildDeez []      = Empty
 buildDeez (x:[])  = Leaf x
 buildDeez (x:xs)  = put x (buildDeez xs)
+
+inDeezOrder :: VixBinTree -> [CiVix]
+inDeezOrder (Empty)                = []
+inDeezOrder (Leaf cv)              = [cv]
+inDeezOrder (Node left curr right) = inDeezOrder left ++ [curr] ++ inDeezOrder right
+
+inRizzOrder :: VixBinTree -> [CiVix]
+inRizzOrder (Empty)                = []
+inRizzOrder (Leaf cv)              = [cv]
+inRizzOrder (Node left curr right) = [curr] ++ inRizzOrder left ++ inRizzOrder right
+
+inRizzPizza :: VixBinTree -> [CiVix]
+inRizzPizza (Empty)                = []
+inRizzPizza (Leaf cv)              = [cv]
+inRizzPizza (Node left here right) = inRizzPizza left ++ inRizzPizza right ++ [here]
+
+-- rabbit hole end here
 
 pile1 :: Pile [Char]
 pile1 = C "3" (C "P" (C "O" E))
