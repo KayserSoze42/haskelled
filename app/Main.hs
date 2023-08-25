@@ -57,6 +57,9 @@ import qualified Mo6
 import qualified Mo7
                    ( absDeez
 		   , getStampd
+		   , Vic (..)
+		   , getDeez
+		   --
 		   )
 
 list :: [Int]
@@ -115,7 +118,7 @@ main :: IO ()
 main = do
  
   executionStart <- getCurrentTime
-
+{- 
   logFile <- readFile "logs/error.log"
 
   let parsedFile = Mo6.parseAll logFile
@@ -196,10 +199,23 @@ main = do
 
   putStr (".\n")
 
+-}
+
+  let vic1 = Mo7.Vic 1 3 3
+
+  let vic2 = Mo7.Vic 7 6 9
+
+  putStrLn ("Vic 1: " ++ (show vic1))
+
+  putStrLn ("Vic 2: " ++ (show vic2))
+
+  let deez = Mo7.getDeez vic1 vic2
+
+  putStrLn ("Deez? " ++ (show deez))
 
   disorderExecutionEnd <- getCurrentTime
 
-  putStrLn ("Disordered time: " ++ (show (diffUTCTime disorderExecutionEnd disorderStart)))
+  -- putStrLn ("Disordered time: " ++ (show (diffUTCTime disorderExecutionEnd disorderStart)))
 
   putStrLn ("Total, run time: " ++ (show (diffUTCTime disorderExecutionEnd executionStart)))
   
