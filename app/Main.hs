@@ -62,6 +62,11 @@ import qualified Mo7
 		   --
 		   )
 
+import qualified Mo8
+                   (
+		     bubblePleez
+		   )
+
 list :: [Int]
 list = [4, 8, 15, 16, 23, 42]
 
@@ -120,6 +125,14 @@ main = do
   executionStart <- getCurrentTime
 
   -- dumb stuff go here --
+  
+  let unbubbled = [4,15,8,42,23,16]
+
+  let bubbled = Mo8.bubblePleez unbubbled
+
+  putStrLn (show unbubbled)
+
+  putStrLn (show bubbled)
 
   disorderExecutionEnd <- getCurrentTime
 
