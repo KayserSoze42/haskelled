@@ -63,8 +63,9 @@ import qualified Mo7
 		   )
 
 import qualified Mo8
-                   (
-		     bubblePleez
+                   ( bubblePleez
+		   , encod3
+		   , decod3
 		   )
 
 list :: [Int]
@@ -125,15 +126,29 @@ main = do
   executionStart <- getCurrentTime
 
   -- dumb stuff go here --
+
+  let message = "That's funny, I don't feel corrupt.."
+
+  let messag2 = "In fact, I feel pretty fine, just pretty fine ..."
+
+  putStrLn (show message)
+
+  putStrLn ("---")
+
+  putStrLn (show messag2)
+
+  let corrupted = Mo8.encod3 6 message
+
+  let corrupte2 = Mo8.encod3 9 messag2
+
+  putStrLn ("*************")
+
+  putStrLn (show corrupted)
+
+  putStrLn ("---")
+
+  putStrLn (show corrupte2)
   
-  let unbubbled = [4,15,8,42,23,16]
-
-  let bubbled = Mo8.bubblePleez unbubbled
-
-  putStrLn (show unbubbled)
-
-  putStrLn (show bubbled)
-
   disorderExecutionEnd <- getCurrentTime
 
   putStrLn ("Total, run time: " ++ (show (diffUTCTime disorderExecutionEnd executionStart)))
