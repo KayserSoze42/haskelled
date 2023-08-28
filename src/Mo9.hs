@@ -40,4 +40,3 @@ listToChars :: [[Char]] -> [Char]
 listToChars []     = []
 listToChars (x:[]) = (show x) ++ (listToChars [])
 listToChars (x:xs) = (show x) ++ (listToChars xs)
-

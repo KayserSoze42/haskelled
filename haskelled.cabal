@@ -23,6 +23,7 @@ extra-source-files:
 
 library
     exposed-modules:  
+      M00
       Mo1
       Mo2
       Mo3
