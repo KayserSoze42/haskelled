@@ -1,5 +1,5 @@
 module M00 
-         ( BinaryTree
+         ( BinaryTree (..)
 	 , treleft
 	 , treight
 	 , trehigh
