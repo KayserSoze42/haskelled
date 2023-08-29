@@ -64,7 +64,7 @@ trinsert it (Node left curr right)
 				| it > curr  = Node left curr (trinsert it right)
 
 tremove :: (Ord it) => it -> BinaryTree it -> BinaryTree it
-tremove it Empty = Empty
+tremove it Empty                                         = Empty
 tremove it (Node left curr right)
                                 | it < curr              = Node (tremove it left) curr right
 				| it > curr              = Node left curr (tremove it right)
@@ -87,4 +87,4 @@ trelrot :: BinaryTree it -> BinaryTree it
 trelrot (Node alpha ita (Node beta itb gamma)) = Node (Node alpha ita beta) itb gamma
 
 trerrot :: BinaryTree it -> BinaryTree it
-trerrot (Node (Node alpha ita beta) itb gamma) = Node alpha ita (Node beta itb gamma)
+trerrot (Node (Node alpha ita beta) itb gamma) = Node alpha ita (Node beta itb gamma) -- exhausted af

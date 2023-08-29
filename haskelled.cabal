@@ -25,6 +25,7 @@ library
     exposed-modules:  
       M00
       M01
+      M02
       Mo1
       Mo2
       Mo3
@@ -42,7 +43,7 @@ library
     -- other-extensions:
     build-depends:    base ^>=4.16.4.0, time,
 
-    hs-source-dirs:   src
+    hs-source-dirs:   src, src/M0xs, src/Moxs
     default-language: Haskell2010
 
 executable haskelled
