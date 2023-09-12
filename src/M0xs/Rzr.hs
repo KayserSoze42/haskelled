@@ -51,6 +51,38 @@ rzrbp0 n m = ((bin2int (rzr35b been beem)), seen)
 						        beem = int2bin m
 							seen = ((rzr5w0p been beem) + (rzrn3g5 been beem)) `mod` 2
 
+rzrbp1 :: (Num a, Integral n) => (n, a) -> (n, a) -> (n, a)
+rzrbp1 (nx, ax) (mx, bx) = (rx, xx)
+                                    where (rx, sx)     = rzrbp0 nx mx 
+				          xx
+					   | sx == 0   = (ax * bx)
+					   | otherwise = negate (ax * bx)
+
 -- show me.. oh no wait.. put it away! no! Abort! ABORT!
 
--- bin2chx :: [Int] -> [Char]
+bin2chx :: [Int] -> [Char]
+bin2chx chx = bin2chx' chx efx lsx
+                                   where efx = cycle ['E', 'F']
+				         lsx = concatMap (replicate 2) [1..]
+					 bin2chx' (n:ns) (e:es) (l:ls) = (res n e l) ++ (bin2chx' ns es ls)
+					 bin2chx' [] _ _               = []
+					 res n e l
+					  | n == 0                     = []
+					  | otherwise                  = e : (show l)
+
+rzrsh0 :: (Num a, Show a, Integral n) => (n, a) -> [Char]
+rzrsh0 (n, a)
+ | n == 0    = show a
+ | otherwise = show a ++ "*" ++ (bin2chx (int2bin n))
+
+rzrls :: (Integral n, Num a) => (n, a) -> [(n, a)]
+rzrls (n, _) = map n2bp2 (rzr2i4i n)
+                                     where n2bp2 i = (i, 1)
+
+
+rzr2i4i :: (Integral n) => n -> [n]
+rzr2i4i n = rzr2i4i' 0 n
+                         where rzr2i4i' _ 0 = []
+			       rzr2i4i' i n 
+			        | even n    = rzr2i4i' (i + 1) (n `div` 2)
+				| otherwise = (2 ^ i) : rzr2i4i' (i + 1) ((n - 1) `div` 2)
